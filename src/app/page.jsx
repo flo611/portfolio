@@ -2,23 +2,45 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h1>
-        <strong> Bienvenue dans le monde du développement </strong>{" "}
-      </h1>
-      <p>
-        Vous avez un <mark> besoin particulier </mark> pour créer votre site ?
-        Venez nous rencontrer pour comprendre votre demande et répondre à vos
-        besoin. 
-      </p>
-      <h2> Mes compétences </h2>
-      <img
-        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.futura-sciences.com%2Ftech%2Fdefinitions%2Finformatique-reseau-informatique-599%2F&psig=AOvVaw0VZD2Rmu2LCR-dZVuHffIt&ust=1686386487304000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCIDXu7rltf8CFQAAAAAdAAAAABAV"
-        alt="Le réseau du dev"
-      />
-      <a href="https://www.google.com/" target="_blank">
-        Aller sur google
-      </a>
-    </main>
+    <div>
+      <header>
+        <img
+          src="https://blog-fr.orson.io/wp-content/uploads/2020/07/logostarbuck.png"
+          width="50px"
+          height="auto"
+          alt="logo-entreprise"
+        />
+        <nav className="bg-blue-500">
+          <ul>
+            <li className="italic text-red-500">
+  
+              <a href="#">Accueil</a>
+            </li>
+            <li className="text-red-200">
+
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1 className="bg-orange-500"> Welcome to my website </h1>
+        <p >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+          facilis hic praesentium sapiente aliquid eligendi, dignissimos quam ab
+          nemo, magni vero minus quidem placeat unde iure voluptatem illum
+          consequuntur ullam?
+        </p>
+      </main>
+      <footer>
+        <img
+          src="https://blog-fr.orson.io/wp-content/uploads/2020/07/logostarbuck.png"
+          width="50px"
+          height="auto"
+          alt="logo-entreprise"
+        />
+        <p className="italic">Copyright - ACS 2023</p>
+      </footer>
+    </div>
   );
 }
