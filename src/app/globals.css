@@ -25,3 +25,27 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* header { 
+  background-color: red; 
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+} */
+.italic {
+  font-style: italic;
+}
+
+.text-red-500 {
+  color: red;
+}
+
+.text-red-200 {
+  color: rgb(205, 103, 103);
+}
+.bg-blue-500 {
+  background-color: blue;
+}
+.bg-orange-500 {
+  background-color: orange;
+}
