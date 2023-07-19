@@ -1,8 +1,9 @@
 const Formulaire=() =>{
     return(
         <>
-         <div>
-        <form className="mt-5">
+        <div >
+         <div >
+        <form className="mt-5  ">
           <div className="mb-4"></div>
           <div>
             <label htmlFor="" className="block">
@@ -65,6 +66,7 @@ const Formulaire=() =>{
         <button>
             Envoyer
         </button>
+      </div>
       </div>
         </>
     );

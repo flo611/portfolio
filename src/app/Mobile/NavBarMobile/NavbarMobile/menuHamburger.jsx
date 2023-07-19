@@ -16,15 +16,15 @@ const MenuHamburger = () => {
       <div>
         <div>
           <ul className=" flex flex-col list-none text-amber-800">
-            <li className="py-6">Accueil</li>
+            <li className="py-2">Accueil</li>
             <li>Introduction</li>
-            <li className="py-6">Compétences</li>
+            <li className="py-2">Compétences</li>
             <li>Projets</li>
-            <li>Expériences</li>
+            <li className="py-2">Expériences</li>
             <li>Contact</li>
           </ul>
         </div>
-        <div className="flex flex-row justify-center px-3">
+        <div className="flex flex-row justify-center px-3 py-6">
           <button>
             <FontAwesomeIcon width={22} height={20} icon={faLinkedin} />
           </button>

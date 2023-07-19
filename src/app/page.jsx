@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import MenuHamburger from "./Mobile/NavBarMobile/NavbarMobile/menuHamburger";
 import Navbar from "./Mobile/NavBarMobile/NavbarMobile/navbar";
 import Intro from "./Mobile/NavBarMobile/introduction/intro";
 import Compet from "./Mobile/compétences/compétences";
@@ -12,32 +10,17 @@ import Formulaire from "./Mobile/Formulaire/formulaire";
 
 const Home = () => {
   return (
-    <main>
-      <div>
-        <nav className="bg-cyan-300 grid grid-cols-3 fixed w-full">
-          <div className="lg:hidden">
-          <MenuHamburger/>
-          </div>
-          <Navbar />
-        </nav>
-        </div>
-        <div>
+    <>
+      <Navbar />
+      <main>
         <Intro />
-        </div>
-        <div>
-          <Compet/>
-        </div>
-        <div>
-          <Carrousel/>
-        </div>
-        <div>
-          <Exp/>
-        </div>
-        <div>
-          <Contact/>
-          <Formulaire/>
-        </div>
-    </main>
+        <Compet />
+        <Carrousel />
+        <Exp />
+        <Contact />
+        <Formulaire />
+      </main>
+    </>
   );
 };
 
