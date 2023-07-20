@@ -1,25 +1,30 @@
 "use client";
 
 import Navbar from "./Mobile/NavBarMobile/NavbarMobile/navbar";
+import NavbarDesktop from "./desktop/navbar";
 import Intro from "./Mobile/NavBarMobile/introduction/intro";
+import Moncv from "./Mobile/cv/moncv";
 import Compet from "./Mobile/compétences/compétences";
 import Carrousel from "./Mobile/Projets/Projets";
 import Exp from "./Mobile/Expériences/experiences";
 import Contact from "./Mobile/Contact/contact";
-import Formulaire from "./Mobile/Formulaire/formulaire";
+import Footer from "./Mobile/NavBarMobile/Footer/footer";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <main>
+      <NavbarDesktop />
+      <br />
+      <main className="bg-cyan-200 text-white ">
         <Intro />
+        <Moncv/>
         <Compet />
         <Carrousel />
         <Exp />
         <Contact />
-        <Formulaire />
       </main>
+      <Footer/>
     </>
   );
 };

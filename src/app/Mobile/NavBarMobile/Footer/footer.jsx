@@ -1,31 +1,21 @@
-"user client";
-
-import { slide as Menu } from "react-burger-menu";
-import { styles } from "./styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faSquareGithub,
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUp } from "@fortawesome/fontawesome-free-solid";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
-const MenuHamburger = () => {
+const Footer = () => {
   return (
-    <Menu styles={styles}>
-      <div className=" py-12 ">
-        <div>
-          <ul className=" flex flex-col list-none text-amber-800">
-            <li className="py-2">Accueil</li>
-            <li>Introduction</li>
-            <li className="py-2" >Mon CV</li>
-            <li >Compétences</li>
-            <li className="py-2">Projets</li>
-            <li >Expériences</li>
-            <li className="py-2">Contact</li>
-          </ul>
+    <>
+      <div className="grid grid-cols-3 items-center  pt-2 bg-cyan-200">
+        <div className="text-sm" >
+          <p>@All rights rerserved</p>
         </div>
-        <div className="flex flex-row justify-start py-8">
+
+        <div className="flex justify-center">
           <button>
             <FontAwesomeIcon width={22} height={20} icon={faLinkedin} />
           </button>
@@ -39,9 +29,12 @@ const MenuHamburger = () => {
             <FontAwesomeIcon width={22} height={20} icon={faEnvelope} />
           </button>
         </div>
+        <div className="flex justify-center">
+          <FontAwesomeIcon width={22} height={20} icon={faArrowUp} />
+        </div>
       </div>
-    </Menu>
+    </>
   );
 };
 
-export default MenuHamburger;
+export default Footer;

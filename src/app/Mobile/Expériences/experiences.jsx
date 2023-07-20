@@ -1,8 +1,8 @@
 const Exp =() =>{
     return(
         <>
-        <h1 className="w-full justify-center flex flex-row text-amber-800">
-            Mes Expériences
+        <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6 pb-2">
+            Mes Expériences :
         </h1>
         <div className="border-amber-800">
 <p>

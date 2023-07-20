@@ -23,10 +23,12 @@ export let styles ={
         position: "fixed",
         height: "100%",
       },
-      bmMenu: {
+      bmMenu: {  
         background: "white",
         padding: "1.5em 2.3em 0",
         fontSize: "1.15em",
+       
+        
       },
       bmMorphShape: {
         fill: "#373a47",
