@@ -13,18 +13,19 @@ import Footer from "./Mobile/NavBarMobile/Footer/footer";
 const Home = () => {
   return (
     <>
+   
       <Navbar />
       <NavbarDesktop />
-      <br />
-      <main className="bg-cyan-200 text-white ">
+      <main className="bg-cyan-200 text-white dark:bg-black dark:text-white dark:uppercase lg:text-4xl ">
         <Intro />
-        <Moncv/>
+        <Moncv />
         <Compet />
         <Carrousel />
         <Exp />
         <Contact />
       </main>
-      <Footer/>
+      <Footer />
+    
     </>
   );
 };

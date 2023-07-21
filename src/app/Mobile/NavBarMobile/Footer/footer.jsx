@@ -10,8 +10,8 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 const Footer = () => {
   return (
     <>
-      <div className="grid grid-cols-3 items-center  pt-2 bg-cyan-200">
-        <div className="text-sm" >
+      <div className=" grid grid-cols-3 items-center  pt-3 bg-cyan-600">
+        <div className="text-sm">
           <p>@All rights rerserved</p>
         </div>
 

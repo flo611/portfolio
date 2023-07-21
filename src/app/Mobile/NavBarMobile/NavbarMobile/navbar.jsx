@@ -1,3 +1,5 @@
+"use client"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faToggleOff, faSun } from "@fortawesome/fontawesome-free-solid";
 import MenuHamburger from "./menuHamburger";
@@ -7,7 +9,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="z-10 grid grid-cols-3 bg-cyan-300 fixed w-full items-center  lg:hidden ">
+    <nav className="z-10 grid grid-cols-3 bg-cyan-600 fixed w-full items-center py-3  lg:hidden ">
       <div>
         <MenuHamburger />
       </div>

@@ -18,15 +18,15 @@ const MenuHamburger = () => {
           <ul className=" flex flex-col list-none text-amber-800">
             <li className="py-2">Accueil</li>
             <li>Introduction</li>
-            <li className="py-2" >Mon CV</li>
+            <li className="py-2" >CV</li>
             <li >Compétences</li>
             <li className="py-2">Projets</li>
             <li >Expériences</li>
             <li className="py-2">Contact</li>
           </ul>
         </div>
-        <div className="flex flex-row justify-start py-8">
-          <button>
+        <div className="flex flex-row justify-start py-8 text-amber-800">
+          <button >
             <FontAwesomeIcon width={22} height={20} icon={faLinkedin} />
           </button>
           <button className="px-2">

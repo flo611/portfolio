@@ -1,3 +1,5 @@
+import Input from "../input";
+import Button from "../button";
 const Contact = () => {
   return (
     <>
@@ -6,7 +8,7 @@ const Contact = () => {
         Contactez-moi :{" "}
       </h1>
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center ">
         <div>
           <form className="mt-5  ">
             <div className="mb-4"></div>
@@ -67,12 +69,13 @@ const Contact = () => {
             />
           </form>
         </div>
-        <div className="pt-2">
-          <button className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold  rounded-full px-2 ">
-            Envoyer
-          </button>
+
+        <div className="pt-2 pb-2">
+          <Button title="Envoyer"/>
+         
         </div>
       </div>
+     
     </>
   );
 };
