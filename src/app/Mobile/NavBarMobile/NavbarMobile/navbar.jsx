@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="z-10 grid grid-cols-3 bg-cyan-600 fixed w-full items-center py-3  lg:hidden ">
+    <nav className="z-10 grid grid-cols-3 bg-cyan-600 fixed w-full items-center py-3 lg:hidden ">
       <div>
         <MenuHamburger />
       </div>
@@ -21,8 +21,7 @@ const Navbar = () => {
           height={60}
         />
       </div>
-
-      <div className=" lg: flex flex-row items-center ">
+      <div className="  lg:flex flex-row items-center ">
         <let button type="button" onClick={() => DarkMode()}>
           <FontAwesomeIcon className="pr-2" icon={faSun} size="xl" />
           <FontAwesomeIcon icon={faToggleOff} size="xl" />

@@ -1,11 +1,12 @@
+"use client";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
   faSquareGithub,
   faDiscord,
 } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp } from "@fortawesome/fontawesome-free-solid";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -29,9 +30,17 @@ const Footer = () => {
             <FontAwesomeIcon width={22} height={20} icon={faEnvelope} />
           </button>
         </div>
-        <div className="flex justify-center">
-          <FontAwesomeIcon width={22} height={20} icon={faArrowUp} />
-        </div>
+        <button>
+          <div className="flex justify-end"> 
+            <Image
+              
+              src="images/logos/logo-portfolio-white.svg"
+              alt="logoPF"
+              width={50}
+              height={20}
+            />
+          </div>
+        </button>
       </div>
     </>
   );

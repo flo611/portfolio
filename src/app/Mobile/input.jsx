@@ -4,9 +4,9 @@ const Input =(props)=>{
     return(
         <>
       
-        <div className="bg-cyan-600 rounded-lg  ">
-            <h1>Name</h1>
-        <input type={props.type } className={props.className}  />
+        <div  >
+            <h1>{props.title}</h1>
+        <input type={props.type } className={props.className} form={props.form}  />
         </div>
         </>
     );
@@ -15,6 +15,7 @@ const Input =(props)=>{
 Input.PropTypes={
     type: PropTypes.string.isRequired,
     className: PropTypes.string,
+    form:PropTypes.string
     
     
 };

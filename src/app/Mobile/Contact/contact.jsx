@@ -1,5 +1,7 @@
 import Input from "../input";
 import Button from "../button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/fontawesome-free-solid";
 const Contact = () => {
   return (
     <>
@@ -17,6 +19,7 @@ const Contact = () => {
                 Nom
               </label>
             </div>
+            <Input type="text" title="Name" />
             <input
               type="text"
               className="border-cyan-800 bg-cyan-400 border-2 p-2 rounded-sm"
@@ -71,11 +74,19 @@ const Contact = () => {
         </div>
 
         <div className="pt-2 pb-2">
-          <Button title="Envoyer"/>
-         
+          <Button title="Envoyer" />
         </div>
       </div>
-     
+      <div className="flex flex-row justify-end">
+        <FontAwesomeIcon
+          width={30}
+          height={20}
+          icon={faArrowUp}
+          color="black"
+        />
+       
+      </div>
+      
     </>
   );
 };

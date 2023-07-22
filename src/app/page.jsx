@@ -16,7 +16,7 @@ const Home = () => {
    
       <Navbar />
       <NavbarDesktop />
-      <main className="bg-cyan-200 text-white dark:bg-black dark:text-white dark:uppercase lg:text-4xl ">
+      <main className="bg-cyan-400 text-white dark:bg-black dark:text-white dark:uppercase lg:text-2xl ">
         <Intro />
         <Moncv />
         <Compet />

@@ -8,9 +8,9 @@ const Carrousel = () => {
   return (
     <>
     <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6 pb-2">Mes projets :</h1>
-      <div>
-        <Carousel autoPlay infiniteLoop  className=" bg-cyan-400 mx-8 opacity-80 lg:h-1/2 z-10 ">
-          <div>
+      <div >
+        <Carousel autoPlay infiniteLoop  className=" bg-cyan-400 mx-8 opacity-80 justify-center lg:h-auto  z-10">
+          <div >
             <img src="/images/logos/white-logo naturopied.svg" alt="Naturopied" />
             <p className="legend">NaturoPied</p>
           </div>
