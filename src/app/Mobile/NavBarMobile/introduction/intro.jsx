@@ -1,14 +1,16 @@
 import Image from "next/image";
 
+
 const Intro = () => {
   return (
     <>
-      <h1 className=" uppercase pt-14 pb-2 flex flex-row justify-center w-full text-amber-800  ">
+    
+   
+      <h1 className="uppercase pt-24 pb-2 flex flex-row justify-center w-full text-amber-800  ">
         Introduction :
       </h1>
-
-      <div className="flex  justify-center w-full">
-        <div class=" lg: rounded overflow-hidden shadow-2xl dark:bg-cyan-600 ">
+      <div className="flex  justify-center w-full pt-6">
+        <div class=" lg: rounded  shadow-2xl dark:bg-cyan-600 ">
           <div className="flex justify-center">
             <Image
               class="w-96"
@@ -43,6 +45,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

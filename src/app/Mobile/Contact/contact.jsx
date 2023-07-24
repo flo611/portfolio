@@ -10,73 +10,27 @@ const Contact = () => {
         Contactez-moi :{" "}
       </h1>
 
-      <div className="flex flex-col items-center ">
+      <div className="mx-3 flex flex-col items-center lg:grid grid-cols-2 pt-6   ">
         <div>
-          <form className="mt-5  ">
-            <div className="mb-4"></div>
-            <div>
-              <label htmlFor="" className="block">
-                Nom
-              </label>
-            </div>
-            <Input type="text" title="Name" />
-            <input
-              type="text"
-              className="border-cyan-800 bg-cyan-400 border-2 p-2 rounded-sm"
-              placeholder="Ecrire"
-            />
-          </form>
+          <Input type="text" name="Nom:" />
         </div>
         <div>
-          <form className="mt-5">
-            <div className="mb-4"></div>
-            <div>
-              <label htmlFor="" className="block">
-                Prénom
-              </label>
-            </div>
-            <input
-              type="text"
-              className="border-cyan-800 bg-cyan-400 border-2 p-2 rounded-sm"
-              placeholder="Ecrire"
-            />
-          </form>
+          <Input type="text" name="Prénom:" />
         </div>
         <div>
-          <form className="mt-5">
-            <div className="mb-4"></div>
-            <div>
-              <label htmlFor="" className="block">
-                Téléphone
-              </label>
-            </div>
-            <input
-              type="text"
-              className="border-cyan-800 bg-cyan-400 border-2 p-2 rounded-sm"
-              placeholder="Ecrire"
-            />
-          </form>
+          <Input type="text" name="Téléphone:" />
         </div>
         <div>
-          <form className="mt-5">
-            <div className="mb-4"></div>
-            <div>
-              <label htmlFor="" className="block">
-                Message
-              </label>
-            </div>
-            <input
-              type="text"
-              className="border-cyan-800 bg-cyan-400 border-2 p-2 rounded-sm"
-              placeholder="Ecrire"
-            />
-          </form>
+          <Input type="text" name="Société:" />
         </div>
-
-        <div className="pt-2 pb-2">
-          <Button title="Envoyer" />
+        <div >
+        <Input type="text" name="Message:" />
         </div>
       </div>
+      <div className=" flex flex-row pt-2 pb-2 justify-center">
+        <Button label="Envoyer" />
+      </div>
+
       <div className="flex flex-row justify-end">
         <FontAwesomeIcon
           width={30}
@@ -84,9 +38,7 @@ const Contact = () => {
           icon={faArrowUp}
           color="black"
         />
-       
       </div>
-      
     </>
   );
 };

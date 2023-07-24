@@ -1,10 +1,12 @@
+
+
 const Exp =() =>{
     return(
         <>
-        <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6 pb-2">
+        <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6 ">
             Mes Expériences :
         </h1>
-        <div className="border-amber-800">
+        <div className="border-amber-800 pt-6">
 <p>
     2022/2023: Responsable Office de Tourisme des Sources de l'Orne
 </p>

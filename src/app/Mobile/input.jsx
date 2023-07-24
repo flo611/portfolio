@@ -4,18 +4,18 @@ const Input =(props)=>{
     return(
         <>
       
-        <div  >
-            <h1>{props.title}</h1>
-        <input type={props.type } className={props.className} form={props.form}  />
-        </div>
+        
+           <label htmlFor="name">{props.name}</label><br />
+        <input type={props.type } className={`rounded-lg bg-cyan-800 my-6 hover:bg-white hover:text-black ${props.className}`}  />
+
         </>
-    );
+    ); 
 };
 
 Input.PropTypes={
     type: PropTypes.string.isRequired,
     className: PropTypes.string,
-    form:PropTypes.string
+    name:PropTypes.string
     
     
 };

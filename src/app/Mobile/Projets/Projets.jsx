@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Carrousel = () => {
   return (
     <>
-    <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6 pb-2">Mes projets :</h1>
+    <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6">Mes projets :</h1>
       <div >
         <Carousel autoPlay infiniteLoop  className=" bg-cyan-400 mx-8 opacity-80 justify-center lg:h-auto  z-10">
           <div >

@@ -1,21 +1,19 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-const Button =(props)=>{
-    return(
-        <>
-        <div className=" text-white font-bold  rounded-full px-2 flex flex-row justify-center items-center   " >
-            <p > {props.title}</p>
-            
-        <button type={props.type} className={props.className} />
-        </div>
-       
-        </>
-    );
+const Button = (props) => {
+  return (
+    <button
+      type={props.type}
+      className={`text-white bg-cyan-800 font-bold  rounded-full px-2 flex flex-row justify-center items-center hover:bg-white hover:text-black ${props.className}`}
+    >
+      {props.label}
+    </button>
+  );
 };
 
-Button.PropTypes={
-    type: PropTypes.string.isRequired,
-    className: PropTypes.string,
+Button.PropTypes = {
+  type: PropTypes.string.isRequired,
+  className: PropTypes.string,
 };
 
 export default Button;
