@@ -50,11 +50,9 @@ const NavbarDesktop = () => {
 
           <div className=" hidden lg:flex flex-row w-full  bg-cyan-600 ">
             <div className="flex flex-row  ">
-              <button>
-                <let button type="button" onClick={() => DarkMode()}>
-                  <FontAwesomeIcon className="pr-2" icon={faSun} size="2xl" />
-                  <FontAwesomeIcon icon={faToggleOff} size="2xl" />
-                </let>
+              <button type="button" onClick={() => DarkMode()}>
+                <FontAwesomeIcon className="pr-2" icon={faSun} size="2xl" />
+                <FontAwesomeIcon icon={faToggleOff} size="2xl" />
               </button>
             </div>
           </div>

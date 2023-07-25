@@ -10,86 +10,86 @@ const Skills = () => {
         Mes compétences :
       </h1>
 
-      <div class="gap-8 sm:grid sm:grid-cols-2 pt-6 lg:grid grid-cols-2 ">
+      <div className="gap-8 sm:grid sm:grid-cols-2 pt-6 lg:grid grid-cols-2 ">
         <div>
           <dl>
-            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
               HTML
               <Progress percent={88} status="success" />;
             </dt>
-            <dd class="flex items-center mb-3">
-              <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
+            <dd className="flex items-center mb-3">
+              <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
                 <div
-                  class="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
+                  className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
                   width="88%"
                 ></div>
               </div>
-              <span class="text-sm font-medium text-gray-500 dark:text-gray-400">
+              <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
                 8.8
               </span>
             </dd>
           </dl>
           <dl>
-            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
               CSS
             </dt>
-            <dd class="flex items-center mb-3">
-              <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
+            <dd className="flex items-center mb-3">
+              <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
                 <div
-                  class="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
+                  className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
                   width="89%"
                 ></div>
               </div>
-              <span class="text-sm font-medium text-gray-500 dark:text-gray-400">
+              <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
                 8.9
               </span>
             </dd>
           </dl>
           <dl>
-            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
               JAVASCRIPT
             </dt>
-            <dd class="flex items-center mb-3">
-              <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
+            <dd className="flex items-center mb-3">
+              <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
                 <div
-                  class="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
+                  className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
                   width="88%"
                 ></div>
               </div>
-              <span class="text-sm font-medium text-gray-500 dark:text-gray-400">
+              <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
                 8.8
               </span>
             </dd>
           </dl>
           <dl>
-            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
               PHYTON
             </dt>
-            <dd class="flex items-center">
-              <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
+            <dd className="flex items-center">
+              <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
                 <div
-                  class="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
+                  className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
                   width="54%"
                 ></div>
               </div>
-              <span class="text-sm font-medium text-gray-500 dark:text-gray-400">
+              <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
                 5.4
               </span>
             </dd>
           </dl>
         </div>
         <dl>
-          <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">
+          <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
             Figma
           </dt>
-          <dd class="flex items-center mb-3">
-            <div class="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
+          <dd className="flex items-center mb-3">
+            <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
               <div
-                class="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
+                className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
                 width="89%"
               ></div>
             </div>
-            <span class="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
               8.9
             </span>
           </dd>

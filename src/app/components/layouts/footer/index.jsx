@@ -31,9 +31,8 @@ const Footer = () => {
           </button>
         </div>
         <button>
-          <div className="flex justify-end"> 
+          <div className="flex justify-end">
             <Image
-              
               src="images/logos/logo-portfolio-white.svg"
               alt="logoPF"
               width={50}

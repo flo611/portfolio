@@ -19,11 +19,18 @@ const Projects = () => {
             <img
               src="/images/logos/white-logo naturopied.svg"
               alt="Naturopied"
+              width={300}
+              height={200}
             />
             <p className="legend">NaturoPied</p>
           </div>
           <div>
-            <img src="/images/logos/black-logo.svg" alt="Dvnet" />
+            <img
+              src="/images/logos/black-logo.svg"
+              width={300}
+              height={200}
+              alt="Dvnet"
+            />
             <p className="legend">DV-NET</p>
           </div>
           <div>
