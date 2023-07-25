@@ -5,9 +5,9 @@ import "react-sweet-progress/lib/style.css";
 
 const Skills = () => {
   return (
-    <>
+    <section>
       <h1 className="w-full flex flex-row text-amber-800 justify-center uppercase pt-6 pb-2">
-        Mes compétences :
+        Mes compétences
       </h1>
 
       <div className="gap-8 sm:grid sm:grid-cols-2 pt-6 lg:grid grid-cols-2 ">
@@ -95,7 +95,7 @@ const Skills = () => {
           </dd>
         </dl>
       </div>
-    </>
+    </section>
   );
 };
 

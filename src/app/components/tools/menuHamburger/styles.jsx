@@ -4,7 +4,7 @@ export let styles = {
     width: "36px",
     height: "30px",
     left: "20px",
-    top: "21px",
+    top: "26px",
   },
   bmBurgerBars: {
     background: "black",
@@ -38,6 +38,7 @@ export let styles = {
   },
   bmItem: {
     display: "inline-block",
+    width: "100%",
   },
   bmOverlay: {
     background: "rgba(0, 0, 0, 0.3)",

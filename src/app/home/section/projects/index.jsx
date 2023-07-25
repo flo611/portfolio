@@ -5,9 +5,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Projects = () => {
   return (
-    <>
+    <section>
       <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6">
-        Mes projets :
+        Mes projets
       </h1>
       <div>
         <Carousel
@@ -44,7 +44,7 @@ const Projects = () => {
           </div>
         </Carousel>
       </div>
-    </>
+    </section>
   );
 };
 

@@ -1,25 +1,36 @@
+"use client";
+import Card from "@/app/components/tools/cards";
+import data from "./data.json";
+
 const Experiences = () => {
+  
+  const showContent = (props) => {
+    alert(
+      `Pour mon poste de ${props.title}, j'ai effectuer des tâches tel que ${props.description}`
+    );
+  };
+
   return (
-    <>
-      <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6 ">
-        Mes Expériences :
+    <section>
+      <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6">
+        Mes Expériences
       </h1>
-      <div className="border-amber-800 pt-6">
-        <p>2022/2023: Responsable Office de Tourisme des Sources de l'Orne</p>
+      <div className="flex flex-col items-center">
+        {data.map((element) => {
+          return (
+            <div className="mt-8 px-4">
+              <Card
+                title={element.title}
+                date={element.date}
+                goal={element.goal}
+                onClick={() => showContent(element)}
+              />
+            </div>
+          );
+        })}
       </div>
-      <div className="border-amber-800">
-        <p>2021/2022: Agent de fret Air China cargo CDG Paris</p>
-      </div>
-      <div className="border-amber-800">
-        <p>2020/2021: Réceptionniste et Bagagiste Disneyland Paris</p>
-      </div>
-      <div className="border-amber-800">
-        <p>
-          2017/2020: Conseiller séjour, promotion du territoire Office de
-          Tourisme Flers Agglo
-        </p>
-      </div>
-    </>
+    </section>
   );
 };
+
 export default Experiences;

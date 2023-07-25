@@ -11,12 +11,16 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer>
-      <div className=" grid grid-cols-3 items-center  pt-3 bg-cyan-600">
-        <div className="text-sm">
-          <p>@All rights rerserved</p>
+      <div className="flex flex-col bg-cyan-600">
+        <div className="flex flex-row justify-center pt-2">
+          <Image
+            src="images/logos/logo-portfolio-white.svg"
+            alt="logoPF"
+            width={60}
+            height={60}
+          />
         </div>
-
-        <div className="flex justify-center">
+        <div className="flex justify-center py-2">
           <button>
             <FontAwesomeIcon width={22} height={20} icon={faLinkedin} />
           </button>
@@ -30,16 +34,10 @@ const Footer = () => {
             <FontAwesomeIcon width={22} height={20} icon={faEnvelope} />
           </button>
         </div>
-        <button>
-          <div className="flex justify-end">
-            <Image
-              src="images/logos/logo-portfolio-white.svg"
-              alt="logoPF"
-              width={50}
-              height={20}
-            />
-          </div>
-        </button>
+        <hr />
+        <div className="text-center py-2">
+          <span className="italic">&copy; Tous droits réservés</span>
+        </div>
       </div>
     </footer>
   );

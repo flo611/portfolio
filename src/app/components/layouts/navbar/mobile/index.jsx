@@ -9,11 +9,11 @@ import Image from "next/image";
 
 const NavbarMobile = () => {
   return (
-    <nav className="z-10 grid grid-cols-3 bg-cyan-600 fixed w-full items-center py-3 lg:hidden ">
+    <nav className="z-10 grid grid-cols-3 bg-cyan-600 fixed top-0 w-full items-center py-3 lg:hidden ">
       <div>
         <Menu />
       </div>
-      <div>
+      <div className="flex flex-row justify-center">
         <Image
           src="images/logos/logo-portfolio-white.svg"
           alt="logoPF"
@@ -21,7 +21,7 @@ const NavbarMobile = () => {
           height={60}
         />
       </div>
-      <div className="  lg:flex flex-row items-center ">
+      <div className="flex flex-row justify-center">
         <button type="button" onClick={() => DarkMode()}>
           <FontAwesomeIcon className="pr-2" icon={faSun} size="xl" />
           <FontAwesomeIcon icon={faToggleOff} size="xl" />
