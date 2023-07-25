@@ -4,7 +4,7 @@ import Button from "@/app/components/tools/buttons";
 
 const Introduction = () => {
   return (
-    <section className="flex flex-col mt-20 dark:bg-cyan-600">
+    <section className="flex flex-col mt-20 dark:bg-cyan-600 lg:mt-0">
       <div className="flex flex-row justify-center">
         <Image
           src="/images/logos/white-logo naturopied.svg"
@@ -14,7 +14,9 @@ const Introduction = () => {
         />
       </div>
       <div className="flex flex-row justify-evenly pb-8">
-        <Button type="button" value="Mon CV" />
+        <a href="/images/cv.svg">
+          <Button type="button" value="Mon CV" />
+        </a>
         <Button type="button" value="Mes projets" />
       </div>
       <div className="flex flex-col">

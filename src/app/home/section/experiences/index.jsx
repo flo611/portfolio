@@ -6,7 +6,7 @@ const Experiences = () => {
   
   const showContent = (props) => {
     alert(
-      `Pour mon poste de ${props.title}, j'ai effectuer des tâches tel que ${props.description}`
+      `Pour mon poste de ${props.title}, j'ai effectué des tâches tel que ${props.description}`
     );
   };
 
