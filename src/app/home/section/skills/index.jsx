@@ -10,90 +10,129 @@ const Skills = () => {
         Mes compétences
       </h1>
 
-      <div className="gap-8 sm:grid sm:grid-cols-2 pt-6 lg:grid grid-cols-2 ">
+      <div className="flex flex-col px-12 lg:grid grid-cols-2 lg:px-6">
         <div>
           <dl>
-            <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
+            <dt
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
+              data-aos="fade-down"
+            >
               HTML
-              <Progress percent={88} status="success" />;
+              <Progress
+                percent={95}
+                
+                status={"default"}
+                theme={{
+                  default: {
+                    symbol: "",
+                    color: "red",
+                    style: "shining"
+                  },
+                }}
+              />
             </dt>
-            <dd className="flex items-center mb-3">
-              <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                <div
-                  className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
-                  width="88%"
-                ></div>
-              </div>
-              <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                8.8
-              </span>
-            </dd>
-          </dl>
-          <dl>
-            <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
-              CSS
-            </dt>
-            <dd className="flex items-center mb-3">
-              <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                <div
-                  className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
-                  width="89%"
-                ></div>
-              </div>
-              <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                8.9
-              </span>
-            </dd>
-          </dl>
-          <dl>
-            <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
-              JAVASCRIPT
-            </dt>
-            <dd className="flex items-center mb-3">
-              <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                <div
-                  className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
-                  width="88%"
-                ></div>
-              </div>
-              <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                8.8
-              </span>
-            </dd>
-          </dl>
-          <dl>
-            <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
-              PHYTON
-            </dt>
-            <dd className="flex items-center">
-              <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-                <div
-                  className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
-                  width="54%"
-                ></div>
-              </div>
-              <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
-                5.4
-              </span>
-            </dd>
           </dl>
         </div>
-        <dl>
-          <dt className="text-sm font-medium text-gray-500 dark:text-gray-400">
-            Figma
-          </dt>
-          <dd className="flex items-center mb-3">
-            <div className="w-full bg-gray-200 rounded h-2.5 dark:bg-gray-700 mr-2">
-              <div
-                className="bg-blue-600 h-2.5 rounded dark:bg-blue-500"
-                width="89%"
-              ></div>
-            </div>
-            <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
-              8.9
-            </span>
-          </dd>
-        </dl>
+        <div>
+          <dl>
+            <dt
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
+              data-aos="fade-down"
+            >
+              CSS
+              <Progress
+                percent={90}
+                status={"default"}
+                theme={{
+                  default: {
+                    symbol: "",
+                    color: "blue",
+                  },
+                }}
+              />
+            </dt>
+          </dl>
+        </div>
+        <div>
+          <dl>
+            <dt
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
+              data-aos="fade-down"
+            >
+              JavaScript
+              <Progress
+                percent={80}
+                status={"default"}
+                theme={{
+                  default: {
+                    symbol: "",
+                    color: "yellow",
+                  },
+                }}
+              />
+            </dt>
+          </dl>
+        </div>
+        <div>
+          <dl>
+            <dt
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
+              data-aos="fade-down"
+            >
+              PHP
+              <Progress
+                percent={75}
+                status={"default"}
+                theme={{
+                  default: {
+                    symbol: "",
+                    color: "cyan",
+                  },
+                }}
+              />
+            </dt>
+          </dl>
+        </div>
+        <div>
+          <dl>
+            <dt
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
+              data-aos="fade-down"
+            >
+              Symfony
+              <Progress
+                percent={75}
+                status={"default"}
+                theme={{
+                  default: {
+                    symbol: "",
+                    color: "black",
+                  },
+                }}
+              />
+            </dt>
+          </dl>
+        </div>
+        <div>
+          <dl>
+            <dt
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
+              data-aos="fade-down"
+            >
+              Postman
+              <Progress
+                percent={70}
+                status={"default"}
+                theme={{
+                  default: {
+                    symbol: "",
+                    color: "orange",
+                  },
+                }}
+              />
+            </dt>
+          </dl>
+        </div>
       </div>
     </section>
   );

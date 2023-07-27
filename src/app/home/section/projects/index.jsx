@@ -1,7 +1,9 @@
 "use client";
 
+
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Button from "@/app/components/tools/buttons";
 
 const Projects = () => {
   return (
@@ -13,7 +15,11 @@ const Projects = () => {
         <Carousel
           autoPlay
           infiniteLoop
-          className="bg-cyan-400 mx-8 opacity-80 justify-center lg:h-auto  z-10"
+          className="bg-cyan-400 mx-8 opacity-80 justify-center lg:w- lg:h-min  z-10"
+          showThumbs={0}
+          showIndicators={0}
+          showStatus={0}
+          interval={2000}
         >
           <div>
             <img
@@ -42,7 +48,11 @@ const Projects = () => {
             />
             <p className="legend">Portfolio</p>
           </div>
+          
         </Carousel>
+      </div>
+      <div className="flex justify-center pt-8">
+      <Button type="button" value="En savoir +" />
       </div>
     </section>
   );

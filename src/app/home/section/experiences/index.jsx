@@ -3,7 +3,6 @@ import Card from "@/app/components/tools/cards";
 import data from "./data.json";
 
 const Experiences = () => {
-  
   const showContent = (props) => {
     alert(
       `Pour mon poste de ${props.title}, j'ai effectué des tâches tel que ${props.description}`
@@ -15,10 +14,13 @@ const Experiences = () => {
       <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6">
         Mes Expériences
       </h1>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center md:mx-6   lg:mx-8 ">
         {data.map((element) => {
           return (
-            <div className="mt-8 px-4">
+            <div
+              className="mt-8 px-4 md:w-full lg:w-full"
+              data-aos="fade-right"
+            >
               <Card
                 title={element.title}
                 date={element.date}

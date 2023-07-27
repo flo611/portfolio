@@ -1,23 +1,40 @@
+"use client";
+
 import Image from "next/image";
 import Keyword from "@/app/components/tools/keyword";
 import Button from "@/app/components/tools/buttons";
 
+<link rel="stylesheet" href="/styles.css" />
+
 const Introduction = () => {
   return (
-    <section className="flex flex-col mt-20 dark:bg-cyan-600 lg:mt-0">
-      <div className="flex flex-row justify-center">
+    <section
+      className="flex flex-col mt-20  dark:bg-black lg:mt-0 lg:w-full "
+      data-aos="fade-down-right" 
+    >
+      <div className="w-full bg-scroll bg-center " >
+        <Image
+          src={"/images/background.jpg"}
+          width={1024}
+          height={670}
+          alt="laptop"
+        />
+      
+      <div className="flex flex-row justify-center ">
         <Image
           src="/images/logos/white-logo naturopied.svg"
           alt="Photo-de-profil"
-          width={385}
-          height={385}
+          width={200}
+          height={200}
         />
       </div>
-      <div className="flex flex-row justify-evenly pb-8">
+      <div className="flex flex-row justify-evenly pb-8 ">
         <a href="/images/cv.svg">
           <Button type="button" value="Mon CV" />
         </a>
-        <Button type="button" value="Mes projets" />
+        <a href="/projects/index.jsx">
+          <Button type="button" value="Mes projets" />
+        </a>
       </div>
       <div className="flex flex-col">
         <h2 className="text-center uppercase font-bold text-amber-800">
@@ -30,9 +47,16 @@ const Introduction = () => {
         </p>
       </div>
       <div className="px-6 pt-4 pb-2 flex justify-center">
-        <Keyword value="#Sports" />
-        <Keyword value="#Nature" />
-        <Keyword value="#Travels" />
+        <a href="https://www.instagram.com/sports.fr_officiel/">
+          <Keyword value="#Sports" />
+        </a>
+        <a href="https://www.instagram.com/nature/?hl=fr">
+          <Keyword value="#Nature" />
+        </a>
+        <a href="https://www.instagram.com/explore/tags/travels/?hl=fr">
+          <Keyword value="#Travels" />
+        </a>
+      </div>
       </div>
     </section>
   );

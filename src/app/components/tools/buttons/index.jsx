@@ -5,7 +5,7 @@ const Button = (props) => {
   return (
     <button
       type={props.type}
-      className={`text-white bg-cyan-800 font-bold  rounded-full flex flex-row uppercase px-4 py-4 w-36 justify-center items-center hover:bg-white hover:text-black ${props.className}`}
+      className={`text-white bg-cyan-800 font-bold  rounded-full flex flex-row uppercase px-2 py-2 w-36 justify-center items-center hover:bg-white hover:text-black ${props.className} lg:w-48` }
       onClick={props.onClick}
     >
       {props.value}
