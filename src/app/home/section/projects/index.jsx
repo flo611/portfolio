@@ -15,7 +15,7 @@ const Projects = () => {
         <Carousel
           autoPlay
           infiniteLoop
-          className="bg-cyan-400 mx-8 opacity-80 justify-center lg:w- lg:h-min  z-10"
+          className="bg-gradient-to-r from-cyan-200 to-blue-500 mx-8 opacity-80 justify-center lg:w- lg:h-min  z-10"
           showThumbs={0}
           showIndicators={0}
           showStatus={0}

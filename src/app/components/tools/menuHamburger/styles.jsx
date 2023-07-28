@@ -1,6 +1,6 @@
 export let styles = {
   bmBurgerButton: {
-    position: "fixed",
+    position: "absolute",
     width: "36px",
     height: "30px",
     left: "20px",
@@ -25,7 +25,7 @@ export let styles = {
     height: "100%",
   },
   bmMenu: {
-    background: "white",
+    background: "rgb(8 145 178)",
     padding: "1.5em 2.3em 0",
     fontSize: "1.15em",
   },

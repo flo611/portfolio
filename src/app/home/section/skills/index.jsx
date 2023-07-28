@@ -2,6 +2,7 @@
 
 import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
+import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -17,16 +18,21 @@ const Skills = () => {
               className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
               data-aos="fade-down"
             >
-              HTML
+              <Image
+                src="/portfolio/public/images/html.svg"
+                width={40}
+                height={40}
+                alt="html logo"
+              />
+
               <Progress
                 percent={95}
-                
                 status={"default"}
                 theme={{
                   default: {
                     symbol: "",
                     color: "red",
-                    style: "shining"
+                    style: "shining",
                   },
                 }}
               />
@@ -39,7 +45,13 @@ const Skills = () => {
               className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
               data-aos="fade-down"
             >
-              CSS
+              <Image
+                src="/portfolio/public/images/css.svg"
+                width={40}
+                height={40}
+                alt="css logo"
+              />
+
               <Progress
                 percent={90}
                 status={"default"}
@@ -59,7 +71,12 @@ const Skills = () => {
               className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
               data-aos="fade-down"
             >
-              JavaScript
+              <Image
+                src="/portfolio/public/images/javascprit.svg"
+                width={40}
+                height={40}
+                alt="javascprit logo"
+              />
               <Progress
                 percent={80}
                 status={"default"}
@@ -79,7 +96,12 @@ const Skills = () => {
               className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6"
               data-aos="fade-down"
             >
-              PHP
+              <Image
+                src="/portfolio/public/images/php.svg"
+                width={40}
+                height={40}
+                alt="php logo"
+              />
               <Progress
                 percent={75}
                 status={"default"}

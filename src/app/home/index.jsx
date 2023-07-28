@@ -9,11 +9,11 @@ import Contact from "@/app/home/section/contact";
 const Home = () => {
   return (
     <Main>
-        <Introduction />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Contact />
+      <Introduction />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Contact />
     </Main>
   );
 };
