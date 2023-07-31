@@ -16,13 +16,13 @@ const NavbarDesktop = () => {
                 <Image
                   src="images/logos/logo-portfolio-white.svg"
                   alt="logoPF"
-                  width={60}
-                  height={60}
+                  width={100}
+                  height={100}
                 />
               </button>
             </div>
           </div>
-          <div className="hidden lg:flex flex-row w-full justify-center items-center list-none text-amber-800 text-2xl ">
+          <div className="hidden lg:flex flex-row w-full justify-center items-center list-none text-amber-800 text-4xl ">
             <ul className="flex flex-row justify-center ">
               <li className="px-8 lg:px-3 xl:px-16">
                 <a href="/navbar.jsx">Accueil</a>

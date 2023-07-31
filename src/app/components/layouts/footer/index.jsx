@@ -11,8 +11,8 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <footer>
-      <div className="flex flex-col bg-cyan-600">
-        <div className="flex flex-row justify-center pt-2">
+      <div className="flex flex-col bg-cyan-600 ">
+        <div className="flex flex-row justify-center pt-2  ">
           <Image
             src="images/logos/logo-portfolio-white.svg"
             alt="logoPF"
@@ -20,23 +20,25 @@ const Footer = () => {
             height={60}
           />
         </div>
-        <div className="flex justify-center py-2">
+        <div className="flex justify-center py-2 ">
           <button>
-            <FontAwesomeIcon width={22} height={20} icon={faLinkedin} />
+            <FontAwesomeIcon width={22} height={20} icon={faLinkedin}  />
           </button>
           <button className="px-2">
             <FontAwesomeIcon width={22} height={20} icon={faSquareGithub} />
           </button>
           <button>
-            <FontAwesomeIcon width={22} height={20} icon={faDiscord} />
+            <FontAwesomeIcon width={20} height={20} icon={faDiscord} />
           </button>
           <button className="px-2">
             <FontAwesomeIcon width={22} height={20} icon={faEnvelope} />
           </button>
         </div>
         <hr />
-        <div className="text-center py-2">
-          <span className="italic">&copy; Tous droits réservés</span>
+        <div className="text-center py-2 ">
+          <span className="italic lg:text-2xl">
+            &copy; Tous droits réservés
+          </span>
         </div>
       </div>
     </footer>

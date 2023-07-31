@@ -10,8 +10,8 @@ const Introduction = () => {
       className="flex flex-col mt-20 bg-gradient-to-r from-cyan-200 to-cyan-700  dark:dark:bg-gradient-to-r dark:from-cyan-600 dark:to-purple-950 lg:mt-0 lg:w-full"
       data-aos="fade-down-right"
     >
-      <div className="w-full bg-scroll bg-center">
-        <Image
+      <div >
+        <Image className="bg-local"
           src={"/images/background.jpg"}
           width={1024}
           height={670}
