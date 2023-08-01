@@ -4,8 +4,8 @@ import Button from "@/app/components/tools/buttons";
 
 const Card = (props) => {
   return (
-    <div className="pb-4 ">
-      <div className="bg-cyan-900  px-4 ">
+    <div className="pb-4 lg:my-6 ">
+      <div className="bg-cyan-900  px-4 lg:py-4 ">
         <h1>Image: {props.icon}</h1>
         <h1>Intitulé du poste : {props.title} </h1>
         <h1>Date : {props.date}</h1>

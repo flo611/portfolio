@@ -16,7 +16,7 @@ const NavbarDesktop = () => {
               <button>
                 <Link href="/">
                 <Image
-                  src="images/logos/logo-portfolio-white.svg"
+                  src="images/logos/portfolio.svg"
                   alt="logoPF"
                   width={100}
                   height={100}

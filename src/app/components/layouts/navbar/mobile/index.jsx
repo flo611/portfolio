@@ -16,7 +16,7 @@ const NavbarMobile = () => {
       <div className="flex flex-row justify-center">
         <Link href="/">
         <Image
-          src="images/logos/logo-portfolio-white.svg"
+          src="images/logos/portfolio.svg"
           alt="logoPF"
           width={60}
           height={60}

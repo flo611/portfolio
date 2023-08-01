@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="flex flex-row justify-center pt-2  ">
           <Link href="/">
           <Image
-            src="images/logos/logo-portfolio-white.svg"
+            src="images/logos/portfolio.svg"
             alt="logoPF"
             width={60}
             height={60}
