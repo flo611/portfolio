@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import DarkMode from "@/app/components/tools/darkMode";
 import { faSun, faToggleOff } from "@fortawesome/fontawesome-free-solid";
 import Image from "next/image";
+import Link from "next/link";
 
 const NavbarDesktop = () => {
   return (
@@ -13,37 +14,39 @@ const NavbarDesktop = () => {
           <div>
             <div className="flex ">
               <button>
+                <Link href="/">
                 <Image
                   src="images/logos/logo-portfolio-white.svg"
                   alt="logoPF"
                   width={100}
                   height={100}
                 />
+                </Link>
               </button>
             </div>
           </div>
           <div className="hidden lg:flex flex-row w-full justify-center items-center list-none text-amber-800 text-4xl ">
             <ul className="flex flex-row justify-center ">
               <li className="px-8 lg:px-3 xl:px-16">
-                <a href="/navbar.jsx">Accueil</a>
+                <Link href="/">Accueil</Link>
               </li>
               <li>
-                <a href="/introduction">Introduction</a>
+                <Link href="/introduction">Introduction</Link>
               </li>
               <li className="px-8 lg:px-3 xl:px-16">
-                <a href="/cv/moncv.jsx">CV</a>
+                <Link href="/cv">CV</Link>
               </li>
               <li>
-                <a href="/compétences/compétences.jsx">Compétences</a>
+                <Link href="/skills">Compétences</Link>
               </li>
               <li className="px-8 lg:px-3 xl:px-16">
-                <a href="/Projets/Projets.jsx">Projets</a>
+                <Link href="/projets">Projets</Link>
               </li>
               <li>
-                <a href="/Expériences/experiences.jsx">Expériences</a>
+                <Link href="/experiences">Expériences</Link>
               </li>
               <li className="px-8 lg:px-3 xl:px-16">
-                <a href="Contact/contact.jsx">Contact</a>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>

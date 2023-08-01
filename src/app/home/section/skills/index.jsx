@@ -4,6 +4,7 @@ import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
 import Image from "next/image";
 
+
 const Skills = () => {
   return (
     <section>
@@ -19,20 +20,19 @@ const Skills = () => {
               data-aos="fade-down"
             >
               <Image
-                src="/images/html.jpg"
+                src="/images/html.svg"
                 width={40}
                 height={40}
                 alt="html logo"
               />
 
               <Progress
-              className=""
                 percent={95}
                 status={"default"}
                 theme={{
                   default: {
                     color: "red",
-                    style: "shining",
+                    style: "react-sweet-progress-symbol",
                   },
                 }}
               />
@@ -46,7 +46,7 @@ const Skills = () => {
               data-aos="fade-down"
             >
               <Image
-                src="/images/css.jpg"
+                src="/images/css.svg"
                 width={40}
                 height={40}
                 alt="css logo"
@@ -72,7 +72,7 @@ const Skills = () => {
               data-aos="fade-down"
             >
               <Image
-                src="/images/javascript.jpg"
+                src="/images/javascript.svg"
                 width={40}
                 height={40}
                 alt="javascprit logo"
@@ -97,8 +97,8 @@ const Skills = () => {
               data-aos="fade-down"
             >
               <Image
-                src="/images/php.png"
-                width={40}
+                src="/images/php.svg"
+                width={60}
                 height={40}
                 alt="php logo"
               />
@@ -122,7 +122,7 @@ const Skills = () => {
               data-aos="fade-down"
             >
               <Image
-                src="/images/symfony.png"
+                src="/images/symfony.svg"
                 width={40}
                 height={40}
                 alt="php logo"
@@ -147,7 +147,7 @@ const Skills = () => {
               data-aos="fade-down"
             >
               <Image
-                src="/images/postman.png"
+                src="/images/postman.svg"
                 width={40}
                 height={40}
                 alt="php logo"

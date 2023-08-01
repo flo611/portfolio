@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faToggleOff, faSun } from "@fortawesome/fontawesome-free-solid";
 import Menu from "@/app/components/tools/menuHamburger";
 import DarkMode from "@/app/components/tools/darkMode";
-
+import Link from "next/link";
 import Image from "next/image";
 
 const NavbarMobile = () => {
@@ -14,12 +14,14 @@ const NavbarMobile = () => {
         <Menu />
       </div>
       <div className="flex flex-row justify-center">
+        <Link href="/">
         <Image
           src="images/logos/logo-portfolio-white.svg"
           alt="logoPF"
           width={60}
           height={60}
         />
+        </Link>
       </div>
       <div className="flex flex-row justify-center">
         <button type="button" onClick={() => DarkMode()}>

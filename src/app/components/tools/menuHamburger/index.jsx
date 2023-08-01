@@ -10,46 +10,73 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import Image from "next/image";
+import Link from "next/link";
 
 const MenuHamburger = () => {
   return (
     <Menu styles={styles}>
       <div className="">
         <div className="w-full flex flex-row justify-center">
+          <Link href="/">
           <Image
             src="/images/logos/white-logo naturopied.svg"
             alt="Photo-de-profil"
             width={150}
             height={150}
           />
+          </Link>
         </div>
         <div>
           <ul className="flex flex-col list-none text-amber-800">
-            <li className="py-2">Accueil</li>
-            <li>Introduction</li>
+            <li className="py-2">
+              {" "}
+              <Link href="/">Accueil</Link>
+            </li>
+            <li>
+              <Link href="/introduction"> Introduction </Link>
+            </li>
             <li className="py-2">CV</li>
-            <li>Compétences</li>
-            <li className="py-2">Projets</li>
-            <li>Expériences</li>
-            <li className="py-2">Contact</li>
+            <li>
+              <Link href="/skills">Compétences</Link>
+            </li>
+            <li className="py-2">
+              <Link href="/projects">Projets</Link>
+            </li>
+            <li>
+              <Link href="/experience">Expériences</Link>
+            </li>
+            <li className="py-2">
+              <Link href="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
         <div className="py-8 text-amber-800">
           <div className="flex flex-row justify-center">
             <button>
-              <FontAwesomeIcon width={22} height={20} icon={faLinkedin} />
+              <a href="https://fr.linkedin.com/in/florian-sabine-75003a273">
+                <FontAwesomeIcon width={22} height={20} icon={faLinkedin} />
+              </a>
             </button>
             <button className="px-2">
-              <FontAwesomeIcon width={22} height={20} icon={faSquareGithub} />
+              {" "}
+              <a href="https://github.com/flo611">
+                <FontAwesomeIcon width={22} height={20} icon={faSquareGithub} />
+              </a>
             </button>
             <button>
-              <FontAwesomeIcon width={22} height={20} icon={faDiscord} />
+              <a href="https://discord.com/channels/@flo611">
+                <FontAwesomeIcon width={22} height={20} icon={faDiscord} />
+              </a>
             </button>
             <button className="px-2">
-              <FontAwesomeIcon width={22} height={20} icon={faEnvelope} />
+              <a href="mailto:contact@sabine-portfolio.fr">
+                <FontAwesomeIcon width={22} height={20} icon={faEnvelope} />
+              </a>
             </button>
           </div>
-          <div className="flex flex-col items-center italic">&copy; Florian Sabine</div>
+          <div className="flex flex-col items-center italic">
+            &copy; Florian Sabine
+          </div>
         </div>
       </div>
     </Menu>

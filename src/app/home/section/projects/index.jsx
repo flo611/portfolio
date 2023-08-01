@@ -1,6 +1,5 @@
 "use client";
 
-
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Button from "@/app/components/tools/buttons";
@@ -48,11 +47,10 @@ const Projects = () => {
             />
             <p className="legend">Portfolio</p>
           </div>
-          
         </Carousel>
       </div>
       <div className="flex justify-center pt-8">
-      <Button type="button" value="En savoir +" />
+        <Button type="button" value="En savoir +" />
       </div>
     </section>
   );
