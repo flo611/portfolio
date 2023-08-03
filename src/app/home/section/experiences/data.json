@@ -1,31 +1,35 @@
 [
   {
     "id": 1,
-    "title": "Réceptionniste et Bagagiste Disneyland Paris",
+    "title": "Conseiller séjour, promotion du territoire Office de Tourisme Flers Agglo",
     "date": "2020/2021",
     "goal": "abc",
-    "description": "Service1, service2",
+    "description": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique",
     "icon": "/images/tourisme.svg"
   },
   {
     "id": 2,
-    "title": "Conseiller séjour, promotion du territoire Office de Tourisme Flers Agglo",
+    "title": "Réceptionniste et Bagagiste Disneyland Paris",
     "date": "2020/2021",
     "goal": "abc",
-    "description": "Lorem"
+    "description": "Check-in,Check-out Guest, Maîtrise du logiciel Opéra, Transport des bagages différents Hôtels du parc ",
+    "icon": "/images/disneyland.svg"
   },
+
   {
     "id": 3,
     "title": "Agent de fret Air China cargo CDG Paris",
     "date": "2021/2022",
     "goal": "abc",
-    "description": "Lorem"
+    "description": "Saisie LTA, Maîtrise du logiciel Accos, Suivi des stocks ULD, Contrôle marchandises magasin",
+    "icon": "/images/airchina.svg"
   },
   {
     "id": 4,
     "title": "Responsable Office de Tourisme des Sources de l'Orne",
     "date": "2022/2023",
     "goal": "abc",
-    "description": "Lorem"
+    "description": "Gestion de l'Office de Tourisme dans sa globalité, Développement de l'office, Gestion de projets, Visite guidée",
+    "icon": "/images/tourisme.svg"
   }
 ]

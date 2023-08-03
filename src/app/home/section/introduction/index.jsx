@@ -5,14 +5,15 @@ import Keyword from "@/app/components/tools/keyword";
 import Button from "@/app/components/tools/buttons";
 import Link from "next/link";
 
+
 const Introduction = () => {
   return (
     <section
-      className="flex flex-col mt-20  from-cyan-300 to-cyan-700  dark:dark:bg-gradient-to-r dark:from-cyan-600 dark:to-purple-950 lg:mt-0 lg:w-full"
+      className="flex flex-col mt-16  from-cyan-300 to-cyan-700  dark:dark:bg-gradient-to-r dark:from-cyan-600 dark:to-purple-950 mx-3 md:mt-0 lg:w-full"
       data-aos="fade-down-right"
     >
-      <div className="bg-[url('/images/background.png')] bg-no-repeat bg-cover bg-center md:pt-2  sm:max-w md:w-full lg:h-screen ">
-        <div className="flex flex-row justify-evenly  md:pt-12 lg:pt-52 ">
+      <div className="bg-[url('/images/background.png')] bg-no-repeat bg-cover bg-center w-full  lg:my-12 lg:h-screen">
+        <div className="flex flex-row justify-evenly pt-2 pb-8 md:pt-44 ">
           <a href="/images/cv.svg">
             <Button type="button" value="Mon CV" />
           </a>
@@ -20,18 +21,25 @@ const Introduction = () => {
             <Button type="button" value="Mes projets" />
           </Link>
         </div>
-        <div className="flex flex-col">
-          <h2 className="text-center uppercase font-bold text-amber-800  md:pt-6 lg:pt-8">
-            Qui suis-je ?
-          </h2>
-          <img src="/images/logos/portfolio.svg" alt="" />
-          <p className="text-white text-sm px-2 md:text-center lg:text-center lg:text-2xl">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
-            Voluptatibus quia, nulla! Maiores et perferendis eaque, <br />
-            exercitationem praesentium nihil.
+        <div className="flex flex-col items-center ">
+          <Image
+            className="flex flex-row justify-center pt-8 pb-2 lg:py-8 "
+            src="/images/logos/portfolio.svg"
+            alt=""
+            width="80"
+            height="80"
+          />
+         
+          <p className="text-white pb-36 mx-9 text-xs  md:mx-24 md:text-center md:text-base lg:text-center lg:text-2xl lg:pt-20">
+
+            Bonjour,1000 je suis Florian développeur web junior. Je recherche un
+            stage pour Décembre et Janvier 2023/2024. <br />
+            Je suis passioné de sports,de nature et de voyages. Si vous voulez
+            en savoir plus vous êtes au bon endroit. <br /> 
+          
           </p>
         </div>
-        <div className="px-6 pt-4 pb-2 flex justify-center">
+        <div className="px-6 pt-6 pb-2 md:pt-32 lg:my-72 flex justify-center">
           <a href="https://www.instagram.com/sports.fr_officiel/">
             <Keyword value="#Sports" />
           </a>

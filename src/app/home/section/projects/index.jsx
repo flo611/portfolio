@@ -7,22 +7,23 @@ import Button from "@/app/components/tools/buttons";
 const Projects = () => {
   return (
     <section>
-      <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6 font-bold">
+      <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6 pb-4 font-bold lg:text-4xl">
         Mes projets
       </h1>
-      <div>
+      <div >
         <Carousel
           autoPlay
           infiniteLoop
-          className="bg-gradient-to-r from-cyan-200 to-blue-500 mx-8 opacity-80 justify-center lg:z-10 "
+          className="bg-gradient-to-r from-cyan-200 to-blue-500 mx-8 opacity-80 justify-center lg:z-10  lg:h-screen "
           showThumbs={0}
           showIndicators={0}
           showStatus={0}
           interval={2000}
         >
-          <div>
+          <div >
             <img
-              src="/images/logos/white-logo naturopied.svg"
+              src="/images/logos/white-logo naturopied.svg" 
+              className="lg:h-screen"
               alt="Naturopied"
               width={150}
               height={200}
@@ -32,15 +33,17 @@ const Projects = () => {
           <div>
             <img
               src="/images/logos/black-logo.svg"
+              className="lg:h-screen"
               width={150}
               height={200}
               alt="Dvnet"
             />
             <p className="legend">DV-NET</p>
           </div>
-          <div>
+          <div >
             <img
-              src="/images/logos/logo-portfolio-white.svg"
+              src="/images/logos/portfolio.svg"
+              className="lg:h-screen "
               alt="Portfolio"
               width={150}
               height={200}

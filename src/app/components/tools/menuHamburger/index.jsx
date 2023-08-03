@@ -19,14 +19,14 @@ const MenuHamburger = () => {
         <div className="w-full flex flex-row justify-center">
           <Link href="/">
           <Image
-            src="/images/logos/white-logo naturopied.svg"
+            src="/images/logos/portfolio.svg"
             alt="Photo-de-profil"
-            width={150}
-            height={150}
+            width={100}
+            height={100}
           />
           </Link>
         </div>
-        <div>
+        <div className="pt-3">
           <ul className="flex flex-col list-none text-amber-800">
             <li className="py-2">
               {" "}

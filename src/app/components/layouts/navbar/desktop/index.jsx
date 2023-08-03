@@ -10,22 +10,22 @@ const NavbarDesktop = () => {
   return (
     <>
       <section>
-        <div className="hidden lg:grid grid-cols-3 items-center justify-center  bg-cyan-600 ">
+        <div className="hidden lg:grid grid-cols-3 items-center justify-center  bg-cyan-600  ">
           <div>
-            <div className="flex ">
+            <div className="flex pl-10">
               <button>
                 <Link href="/">
-                <Image
-                  src="images/logos/portfolio.svg"
-                  alt="logoPF"
-                  width={100}
-                  height={100}
-                />
+                  <Image
+                    src="images/logos/portfolio.svg"
+                    alt="logoPF"
+                    width={100}
+                    height={100}
+                  />
                 </Link>
               </button>
             </div>
           </div>
-          <div className="hidden lg:flex flex-row w-full justify-center items-center list-none text-amber-800 text-4xl ">
+          <div className="hidden lg:flex flex-row w-full h-40 justify-center items-center list-none text-amber-800 text-4xl uppercase font-medium ">
             <ul className="flex flex-row justify-center ">
               <li className="px-8 lg:px-3 xl:px-16">
                 <Link href="/">Accueil</Link>
@@ -51,7 +51,7 @@ const NavbarDesktop = () => {
             </ul>
           </div>
 
-          <div className="hidden lg:flex justify-end  ">
+          <div className="hidden lg:flex justify-end pr-10 ">
             <button type="button" onClick={() => DarkMode()}>
               <FontAwesomeIcon className="pr-2" icon={faSun} size="2xl" />
               <FontAwesomeIcon icon={faToggleOff} size="2xl" />

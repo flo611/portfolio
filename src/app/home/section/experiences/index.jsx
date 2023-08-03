@@ -11,21 +11,19 @@ const Experiences = () => {
 
   return (
     <section>
-      <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6 font-bold">
+      <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6 font-bold lg:pt-8 lg:text-4xl">
         Mes Expériences
       </h1>
-      <div className="flex flex-col items-center md:mx-6 lg:mx-8  lg:py-4 lg:grid lg:grid-cols-2">
+      <div className="flex flex-col items-center md:mx-6  lg:grid lg:grid-cols-2">
         {data.map((element) => {
           return (
-            <div
-              className="mt-8 px-4 md:w-full"
-              data-aos="fade-right"
-            >
-              <Card 
-              
+            <div className="mt-6 px-4" data-aos="fade-right">
+              <Card
                 title={element.title}
                 date={element.date}
-                goal={element.goal}
+                description={element.description}
+                icon={element.icon}
+                
                 onClick={() => showContent(element)}
               />
             </div>

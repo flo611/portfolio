@@ -4,9 +4,10 @@ export let styles = {
   bmBurgerButton: {
     position: "absolute",
     width: "36px",
-    height: "30px",
+    height: "28px",
     left: "20px",
-    top: "26px",
+    top: "20px",
+  
   },
   bmBurgerBars: {
     background: "black",
