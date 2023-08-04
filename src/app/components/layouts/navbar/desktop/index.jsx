@@ -24,7 +24,7 @@ const NavbarDesktop = () => {
             </a>
           </div>
         </div>
-        <div className="hidden lg:flex flex-row w-full py-4 justify-center items-center list-none text-amber-800 text-lg uppercase font-medium">
+        <div className="hidden lg:flex flex-row w-full py-4 justify-center items-center list-none text-amber-800 dark:text-lime-500 text-lg uppercase font-medium">
           <ul className="w-full grid grid-cols-4">
             <div className="flex flex-row items-center justify-between col-span-3 pl-40">
               <li className="">
