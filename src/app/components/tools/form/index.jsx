@@ -29,9 +29,9 @@ const Form = () => {
         <textarea
           name=""
           id=""
-          cols="30"
+          cols="50"
           rows="10"
-          className="rounded-lg bg-cyan-800 hover:bg-white hover:text-black lg:w-2/5"
+          className="rounded-lg bg-cyan-800 hover:bg-white hover:text-black "
         ></textarea>
       </div>
       <div className="flex flex-row justify-center pt-4 pb-12 lg:col-span-2 lg:py-8 lg:mb-20">

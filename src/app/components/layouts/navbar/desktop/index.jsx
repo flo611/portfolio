@@ -13,18 +13,18 @@ const NavbarDesktop = () => {
     <header>
       <nav className="hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100">
         <div>
-          <div className="pt-6">
+          <div className="pt-4">
             <a href="http://localhost:3000">
               <Image
                 src="images/logos/portfolio.svg"
                 alt="logoPF"
-                width={100}
-                height={100}
+                width={75}
+                height={75}
               />
             </a>
           </div>
         </div>
-        <div className="hidden lg:flex flex-row w-full py-6 justify-center items-center list-none text-amber-800 text-2xl uppercase font-medium">
+        <div className="hidden lg:flex flex-row w-full py-4 justify-center items-center list-none text-amber-800 text-lg uppercase font-medium">
           <ul className="w-full grid grid-cols-4">
             <div className="flex flex-row items-center justify-between col-span-3 pl-40">
               <li className="">
@@ -60,9 +60,9 @@ const NavbarDesktop = () => {
                 }}
               >
                 {showButton === false ? (
-                  <BsToggleOff size={40} />
+                  <BsToggleOff size={30} />
                 ) : (
-                  <BsToggleOn size={40} />
+                  <BsToggleOn size={30} />
                 )}
               </button>
             </div>

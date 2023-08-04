@@ -7,7 +7,7 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <section id="projects">
-      <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6 pb-4 font-bold lg:py-20 lg:text-4xl">
+      <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6 pb-4 font-bold lg:py-20 lg:text-3xl">
         Mes projets
       </h1>
       <div>
