@@ -1,13 +1,14 @@
 "use client";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faToggleOff, faSun } from "@fortawesome/fontawesome-free-solid";
 import Menu from "@/app/components/tools/menuHamburger";
 import DarkMode from "@/app/components/tools/darkMode";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 
 const NavbarMobile = () => {
+  const [showButton, setShowButton] = useState(false);
   return (
     <header>
       <nav className="z-10 grid grid-cols-3 bg-cyan-600 fixed top-0 w-full items-center py-3 lg:hidden ">
@@ -25,9 +26,16 @@ const NavbarMobile = () => {
           </Link>
         </div>
         <div className="flex flex-row justify-center">
-          <button type="button" onClick={() => DarkMode()}>
-            <FontAwesomeIcon className="pr-2" icon={faSun} size="xl" />
-            <FontAwesomeIcon icon={faToggleOff} size="xl" />
+          <button type="button" onClick={() =>{
+            DarkMode();
+             setShowButton(!showButton);
+             } }
+             >
+               {showButton === false ? (
+                  <BsToggleOff size={40} />
+                ) : (
+                  <BsToggleOn size={40} />
+                )}
           </button>
         </div>
       </nav>

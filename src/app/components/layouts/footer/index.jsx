@@ -1,14 +1,8 @@
 "use client";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faSquareGithub,
-  faDiscord,
-} from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+
 import Image from "next/image";
 import Link from "next/link";
-import { BiLogoFacebookSquare } from "react-icons/bi";
+import { BsLinkedin, BsGithub, BsDiscord, BsEnvelopeFill} from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -29,22 +23,22 @@ const Footer = () => {
         <div className="flex justify-center py-2 lg:text-8xl lg:w-full lg:pt-20 ">
           <button>
             <a href="https://fr.linkedin.com/in/florian-sabine-75003a273">
-              <BiLogoFacebookSquare size={50} h />
+              <BsLinkedin size={40} h />
             </a>
           </button>
           <button className="px-2 lg:px-4">
             <a href="https://github.com/flo611">
-              <FontAwesomeIcon width={22} height={20} icon={faSquareGithub} />
+            <BsGithub size={40} h />
             </a>
           </button>
           <button>
             <a href="https://discord.com/channels/@flo611">
-              <FontAwesomeIcon width={22} height={20} icon={faDiscord} />
+            <BsDiscord size={40} h />
             </a>
           </button>
           <button className="px-2 lg:px-4">
             <a href="mailto:contact@sabine-portfolio.fr">
-              <FontAwesomeIcon width={22} height={20} icon={faEnvelope} />
+            <BsEnvelopeFill size={40} h />
             </a>
           </button>
         </div>

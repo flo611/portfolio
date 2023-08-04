@@ -2,7 +2,6 @@
 
 import DarkMode from "@/app/components/tools/darkMode";
 import Image from "next/image";
-import Link from "next/link";
 import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -12,7 +11,7 @@ const NavbarDesktop = () => {
 
   return (
     <header>
-      <nav className="hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-white">
+      <nav className="hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100">
         <div>
           <div className="pt-6">
             <a href="http://localhost:3000">
@@ -37,17 +36,17 @@ const NavbarDesktop = () => {
                 </AnchorLink>
               </li>
               <li className="">
-                <AnchorLink offset={() => 150} href="#projects">
+                <AnchorLink offset={() => 115} href="#projects">
                   Projets
                 </AnchorLink>
               </li>
               <li>
-                <AnchorLink offset={() => 150} href="#timeline">
+                <AnchorLink offset={() => 118} href="#timeline">
                   Expériences
                 </AnchorLink>
               </li>
               <li className="">
-                <AnchorLink offset={() => 150} href="#contact">
+                <AnchorLink offset={() => 118} href="#contact">
                   Contact
                 </AnchorLink>
               </li>
