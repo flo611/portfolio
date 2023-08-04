@@ -1,65 +1,76 @@
 "use client";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import DarkMode from "@/app/components/tools/darkMode";
-import { faSun, faToggleOff } from "@fortawesome/fontawesome-free-solid";
 import Image from "next/image";
 import Link from "next/link";
+import { BsToggleOff, BsToggleOn } from "react-icons/bs";
+import { useState } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const NavbarDesktop = () => {
-  return (
-    <>
-      <section>
-        <div className="hidden lg:grid grid-cols-3 items-center justify-center  bg-cyan-600  ">
-          <div>
-            <div className="flex pl-10">
-              <button>
-                <Link href="/">
-                  <Image
-                    src="images/logos/portfolio.svg"
-                    alt="logoPF"
-                    width={100}
-                    height={100}
-                  />
-                </Link>
-              </button>
-            </div>
-          </div>
-          <div className="hidden lg:flex flex-row w-full h-40 justify-center items-center list-none text-amber-800 text-4xl uppercase font-medium ">
-            <ul className="flex flex-row justify-center ">
-              <li className="px-8 lg:px-3 xl:px-16">
-                <Link href="/">Accueil</Link>
-              </li>
-              <li>
-                <Link href="/introduction">Introduction</Link>
-              </li>
-              <li className="px-8 lg:px-3 xl:px-16">
-                <Link href="/cv">CV</Link>
-              </li>
-              <li>
-                <Link href="/skills">Compétences</Link>
-              </li>
-              <li className="px-8 lg:px-3 xl:px-16">
-                <Link href="/projets">Projets</Link>
-              </li>
-              <li>
-                <Link href="/experiences">Expériences</Link>
-              </li>
-              <li className="px-8 lg:px-3 xl:px-16">
-                <Link href="/contact">Contact</Link>
-              </li>
-            </ul>
-          </div>
+  const [showButton, setShowButton] = useState(false);
 
-          <div className="hidden lg:flex justify-end pr-10 ">
-            <button type="button" onClick={() => DarkMode()}>
-              <FontAwesomeIcon className="pr-2" icon={faSun} size="2xl" />
-              <FontAwesomeIcon icon={faToggleOff} size="2xl" />
-            </button>
+  return (
+    <header>
+      <nav className="hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-white">
+        <div>
+          <div className="pt-6">
+            <a href="http://localhost:3000">
+              <Image
+                src="images/logos/portfolio.svg"
+                alt="logoPF"
+                width={100}
+                height={100}
+              />
+            </a>
           </div>
         </div>
-      </section>
-    </>
+        <div className="hidden lg:flex flex-row w-full py-6 justify-center items-center list-none text-amber-800 text-2xl uppercase font-medium">
+          <ul className="w-full grid grid-cols-4">
+            <div className="flex flex-row items-center justify-between col-span-3 pl-40">
+              <li className="">
+                <a href="http://localhost:3000">Accueil</a>
+              </li>
+              <li>
+                <AnchorLink offset={() => 150} href="#skills">
+                  Compétences
+                </AnchorLink>
+              </li>
+              <li className="">
+                <AnchorLink offset={() => 150} href="#projects">
+                  Projets
+                </AnchorLink>
+              </li>
+              <li>
+                <AnchorLink offset={() => 150} href="#timeline">
+                  Expériences
+                </AnchorLink>
+              </li>
+              <li className="">
+                <AnchorLink offset={() => 150} href="#contact">
+                  Contact
+                </AnchorLink>
+              </li>
+            </div>
+            <div className="flex justify-center">
+              <button
+                type="button"
+                onClick={() => {
+                  DarkMode();
+                  setShowButton(!showButton);
+                }}
+              >
+                {showButton === false ? (
+                  <BsToggleOff size={40} />
+                ) : (
+                  <BsToggleOn size={40} />
+                )}
+              </button>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </header>
   );
 };
 export default NavbarDesktop;

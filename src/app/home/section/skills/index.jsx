@@ -7,16 +7,15 @@ import Image from "next/image";
 
 const Skills = () => {
   return (
-    <section>
-      <h1 className="w-full flex flex-row text-amber-800 justify-center uppercase pt-6 pb-4 font-bold lg:pt-20 lg:text-4xl">
+    <section id="skills">
+      <h1 className="w-full flex flex-row text-amber-800 justify-center uppercase pt-10 pb-4 font-bold lg:pb-20 lg:text-4xl">
         Mes compétences
       </h1>
-
-      <div className="flex flex-col px-12 lg:grid grid-cols-2 lg:px-6 ">
-        <div>
-          <dl>
+      <div className="flex flex-col px-12 lg:grid grid-cols-2 lg:mx-40 ">
+        <div >
+          <dl >
             <dt
-              className="text-sm font-medium  text-white dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6"
+              className="text-sm font-medium  text-white dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6 lg:pr-8"
               data-aos="fade-down"
             >
               <Image
@@ -42,7 +41,7 @@ const Skills = () => {
         <div>
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6"
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6 lg:pl-8"
               data-aos="fade-down"
             >
               <Image
@@ -65,10 +64,10 @@ const Skills = () => {
             </dt>
           </dl>
         </div>
-        <div>
+        <div className="lg:py-8">
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6"
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6 lg:pr-8"
               data-aos="fade-down"
             >
               <Image
@@ -90,10 +89,10 @@ const Skills = () => {
             </dt>
           </dl>
         </div>
-        <div>
+        <div className="lg:py-8">
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6"
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6 lg:pl-8"
               data-aos="fade-down"
             >
               <Image
@@ -118,7 +117,7 @@ const Skills = () => {
         <div>
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6"
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6 lg:pr-8"
               data-aos="fade-down"
             >
               <Image
@@ -143,7 +142,7 @@ const Skills = () => {
         <div>
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6"
+              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-2xl lg:my-6 lg:pl-8"
               data-aos="fade-down"
             >
               <Image

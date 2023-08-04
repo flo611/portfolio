@@ -10,8 +10,8 @@ const Experiences = () => {
   };
 
   return (
-    <section>
-      <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6 font-bold lg:pt-8 lg:text-4xl">
+    <section id="timeline">
+      <h1 className="w-full justify-center flex flex-row text-amber-800 uppercase pt-6 font-bold lg:py-20 lg:text-4xl">
         Mes Expériences
       </h1>
       <div className="flex flex-col items-center md:mx-6  lg:grid lg:grid-cols-2">
