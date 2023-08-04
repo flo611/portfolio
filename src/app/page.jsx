@@ -1,13 +1,23 @@
+"use client";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 import Navbar from "@/app/components/layouts/navbar";
-import Home from "@/app/home";
+import HomePage from "@/app/home";
 import Footer from "@/app/components/layouts/footer";
 import Particlesbackground from "./components/tools/particles";
-export default function () {
+
+export default function Home() {
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
+
   return (
     <>
       <Particlesbackground />
       <Navbar />
-      <Home />
+      <HomePage />
       <Footer />
     </>
   );

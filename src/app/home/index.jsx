@@ -6,7 +6,7 @@ import Projects from "@/app/home/section/projects";
 import Experience from "@/app/home/section/experiences";
 import Contact from "@/app/home/section/contact";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <Main>
       <Introduction />
@@ -18,4 +18,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
