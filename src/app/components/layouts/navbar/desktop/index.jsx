@@ -11,7 +11,7 @@ const NavbarDesktop = () => {
 
   return (
     <header>
-      <nav className="hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100">
+      <nav className="hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100 dark:bg-indigo-950">
         <div>
           <div className="pt-4">
             <a href="http://localhost:3000">
