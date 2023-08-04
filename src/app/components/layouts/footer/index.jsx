@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   return (
     <footer className="">
-      <div className="flex flex-col bg-slate-100 dark:bg-indigo-950 lg:grid lg:grid-cols-3">
+      <div className="flex flex-col bg-slate-100 dark:bg-indigo-900 lg:grid lg:grid-cols-3">
         <div className="flex flex-col justify-center items-center pt-2 lg:pt-8 lg:col-span-2">
           <Link href="/">
             <Image
