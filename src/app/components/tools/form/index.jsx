@@ -7,7 +7,7 @@ const Form = () => {
   };
 
   return (
-    <form className="flex flex-col px-3 pt-6 lg:grid lg:grid-cols-2 lg:mx-96">
+    <form className="flex flex-col px-3 pt-6 dark:text-lime-500 lg:grid lg:grid-cols-2 lg:mx-96">
       <div className="flex flex-col items-center lg:pr-8">
         <label htmlFor="">Votre nom :</label>
         <Input type="text" className="" />

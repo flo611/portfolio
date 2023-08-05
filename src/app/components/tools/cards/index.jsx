@@ -9,7 +9,7 @@ const Card = (props) => {
         <div className="flex flex-row justify-center py-4 lg:pb-16 lg:h-60 lg:w-full">
           <img src={props.icon} width="100px" height="80px" />
         </div>
-        <div className="lg:mx-4">
+        <div className="dark:text-lime-500 lg:mx-4 ">
           <h1>Intitulé du poste : {props.title} </h1>
           <h1 className="lg:py-10">Date : {props.date}</h1>
           <p>Description : {props.description}</p>

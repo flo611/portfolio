@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .react-sweet-progress-symbol {
-    color: rgb(10, 238, 151) !important;
+  color: #84cc16 !important;
 }
