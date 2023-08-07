@@ -4,10 +4,11 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Button from "@/app/components/tools/buttons";
 import Image from "next/image";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 const Projects = () => {
   return (
     <section id="projects">
-      <h1 className="w-full flex justify-center text-amber-800 uppercase pt-6 pb-4 font-bold lg:py-20 lg:text-3xl">
+      <h1 className="w-full flex justify-center text-amber-800 dark:text-lime-500 uppercase pt-6 pb-4 font-bold lg:py-20 lg:text-3xl">
         Mes projets
       </h1>
       <div>
@@ -39,14 +40,16 @@ const Projects = () => {
             />
           </div>
           <div className="flex justify-center items-center h-80">
-            <div className="w-40">
-              <Image
-                src="images/logos/portfolio.svg"
-                alt="logoPF"
-                width={10}
-                height={10}
-              />
-            </div>
+            <AnchorLink offset={() => 150} href="#intro">
+              <div className="w-40">
+                <Image
+                  src="images/logos/portfolio.svg"
+                  alt="logoPF"
+                  width={10}
+                  height={10}
+                />
+              </div>
+            </AnchorLink>
           </div>
         </Carousel>
       </div>

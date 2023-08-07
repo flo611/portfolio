@@ -10,7 +10,7 @@ import Particlesbackground from "./components/tools/particles";
 
 export default function Home() {
   useEffect(() => {
-    AOS.init({ once: true });
+    AOS.init({ once: false });
   }, []);
 
   return (

@@ -32,9 +32,9 @@ const NavbarMobile = () => {
              } }
              >
                {showButton === false ? (
-                  <BsToggleOff size={40} />
+                  <BsToggleOff size={40} className="text-amber-800" />
                 ) : (
-                  <BsToggleOn size={40} />
+                  <BsToggleOn size={40} className="text-amber-800" />
                 )}
           </button>
         </div>

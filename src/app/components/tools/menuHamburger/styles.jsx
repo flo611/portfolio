@@ -1,5 +1,3 @@
-
-
 export let styles = {
   bmBurgerButton: {
     position: "absolute",
@@ -7,10 +5,9 @@ export let styles = {
     height: "28px",
     left: "20px",
     top: "20px",
-  
   },
   bmBurgerBars: {
-    background: "black",
+    background: "#92400e",
   },
   bmBurgerBarsHover: {
     background: "black",
@@ -26,6 +23,7 @@ export let styles = {
     position: "fixed",
     top: "0px",
     height: "100%",
+    width: "100%",
   },
   bmMenu: {
     background: "#f1f5f9",
@@ -36,6 +34,9 @@ export let styles = {
     fill: "#373a47",
   },
   bmItemList: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-around",
     color: "#b8b7ad",
     padding: "0.9em",
   },
@@ -44,6 +45,6 @@ export let styles = {
     width: "100%",
   },
   bmOverlay: {
-    background: "rgba(0, 0, 0, 0.3)",
+    background: "transparent",
   },
 };

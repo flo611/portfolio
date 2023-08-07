@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "title": "Conseiller séjour, promotion du territoire Office de Tourisme Flers Agglo",
+    "title": "Conseiller séjour sur le territoire de l'Office de Tourisme Flers Agglo",
     "date": "2020/2021",
     "goal": "abc",
     "description": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique",
-    "icon": "/images/tourisme.svg"
+    "icon": "/images/tourisme.png"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "title": "Responsable Office de Tourisme des Sources de l'Orne",
     "date": "2022/2023",
     "goal": "abc",
-    "description": "Gestion de l'Office de Tourisme dans sa globalité, Développement de l'office, Gestion de projets, Visite guidée",
-    "icon": "/images/tourisme.svg"
+    "description": "Gestion de l'Office de Tourisme, développement de l'office, Gestion de projets, Visite guidée",
+    "icon": "/images/tourisme.png"
   }
 ]

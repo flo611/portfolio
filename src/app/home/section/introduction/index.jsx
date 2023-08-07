@@ -5,6 +5,7 @@ import Keyword from "@/app/components/tools/keyword";
 import Button from "@/app/components/tools/buttons";
 import Link from "next/link";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import TypeAnimations from "@/app/components/tools/typeAnimation";
 
 const Introduction = () => {
   return (
@@ -32,11 +33,10 @@ const Introduction = () => {
               <Button type="button" value="Mes projets" />
             </AnchorLink>
           </div>
-          <p className="py-12 text-white dark:text-lime-500 mx-7 text-xs  md:mx-24 md:text-center md:text-base lg:text-center lg:text-lg">
-            Bonjour, je suis Florian développeur web junior. Je recherche un
-            stage pour Décembre et Janvier 2023/2024. <br />
-            Je suis passioné de sports,de nature et de voyages. Si vous voulez
-            en savoir plus vous êtes au bon endroit. <br />
+          <p className="py-12 text-white  mx-7 text-xs  md:mx-24 md:text-center md:text-base lg:text-center lg:text-lg">
+            Bonjour, je suis Florian !
+            <br />
+            <TypeAnimations />
           </p>
           <div className="flex flex-row justify-center pb-26 lg:pb-24">
             <a href="https://www.instagram.com/sports.fr_officiel/">
