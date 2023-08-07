@@ -11,7 +11,7 @@ const NavbarDesktop = () => {
 
   return (
     <header>
-      <nav className="font-handjetRegular hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100 dark:bg-indigo-900">
+      <nav className="font-handjetRegular hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100 dark:bg-indigo-950">
         <div>
           <div className="pt-5">
             <a href="http://localhost:3000">
@@ -24,7 +24,7 @@ const NavbarDesktop = () => {
             </a>
           </div>
         </div>
-        <div className="hidden lg:flex flex-row w-full py-5 justify-center items-center list-none text-amber-800 dark:text-lime-500 text-lg uppercase font-medium">
+        <div className="hidden lg:flex flex-row w-full py-5 justify-center items-center list-none text-amber-800 dark:text-slate-100 text-lg uppercase font-medium">
           <ul className="w-full grid grid-cols-4">
             <div className="flex flex-row items-center justify-between col-span-3 pl-40">
               <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800">
