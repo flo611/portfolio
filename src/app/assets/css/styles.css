@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* PRIMARY FONT */
+@font-face {
+  font-family: "Oswald-regular";
+  src: url("../fonts/Oswald/static/Oswald-Regular.ttf") format("truetype");
+}
+
+/* SECONDARY FONT */
+@font-face {
+  font-family: "Handjet-regular";
+  src: url("../fonts/Handjet/static/Handjet-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Handjet-light";
+  src: url("../fonts/Handjet/static/Handjet-Light.ttf") format("truetype");
+}
+
+
 .react-sweet-progress-symbol {
   color: white !important;
 }
-

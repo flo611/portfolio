@@ -33,7 +33,7 @@ const Introduction = () => {
               <Button type="button" value="Mes projets" />
             </AnchorLink>
           </div>
-          <p className="py-12 text-white  mx-7 text-xs  md:mx-24 md:text-center md:text-base lg:text-center lg:text-lg">
+          <p className="py-12 text-white  mx-7 text-xs  md:mx-24 md:text-center md:text-base lg:text-center lg:text-lg font-handjetLight">
             Bonjour, je suis Florian !
             <br />
             <TypeAnimations />
