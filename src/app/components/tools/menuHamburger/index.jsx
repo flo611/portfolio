@@ -36,7 +36,7 @@ const MenuHamburger = () => {
         <div className="w-full flex-row justify-center hidden dark:flex">
           <a href="http://localhost:3000">
             <Image
-              src="/images/tourisme.png"
+              src="/images/logos/whiteportfolio.svg"
               alt="Photo-de-profil"
               width={100}
               height={100}
@@ -44,7 +44,7 @@ const MenuHamburger = () => {
           </a>
         </div>
         <div className="py-16">
-          <ul className="flex flex-col list-none text-amber-800">
+          <ul className="flex flex-col list-none text-amber-800 dark:text-slate-100">
             <li className="">
               <AnchorLink
                 event
@@ -93,7 +93,7 @@ const MenuHamburger = () => {
             </li>
           </ul>
         </div>
-        <div className="py-8 text-amber-800">
+        <div className="py-8 text-amber-800 dark:text-slate-100">
           <div className="flex flex-row justify-center">
             <button>
               <a href="https://fr.linkedin.com/in/florian-sabine-75003a273">

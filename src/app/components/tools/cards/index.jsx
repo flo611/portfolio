@@ -5,7 +5,7 @@ import "./styles.css";
 
 const Card = (props) => {
   return (
-    <div className="pb-4 lg:pb-0 lg:my-14 lg:mx-16 hover:transition hover:ease-in-out hover:duration-200 lg:hover:scale-105">
+    <div className=" pb-4 lg:pb-0 lg:my-14 lg:mx-16 hover:transition hover:ease-in-out hover:duration-200 lg:hover:scale-105">
       <div className="contain rounded-lg p-4 ">
         <div className="flex flex-row justify-center py-4  lg:pb-2 lg:h-44 lg:w-full">
           <img src={props.icon} width="100px" height="80px" />

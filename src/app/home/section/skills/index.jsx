@@ -8,7 +8,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <section id="skills">
-      <h1 className="w-full flex flex-row text-amber-800 dark:text-lime-500 justify-center uppercase pt-10 pb-4 font-bold lg:pb-20 lg:text-3xl">
+      <h1 className="w-full flex flex-row text-amber-800 dark:text-amber-600 justify-center uppercase pt-10 pb-4 font-bold lg:pb-20 lg:text-3xl">
         Mes compétences
       </h1>
       <div className="flex flex-col px-12 lg:grid grid-cols-2 lg:mx-40 ">

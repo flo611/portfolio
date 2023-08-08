@@ -20,7 +20,16 @@ const Footer = () => {
               alt="logoPF"
               width={75}
               height={75}
-              className=""
+              className=" dark:hidden"
+            />
+          </a>
+          <a href="http://localhost:3000">
+            <Image
+              src="images/logos/whiteportfolio.svg"
+              alt="logoPF"
+              width={75}
+              height={75}
+              className="hidden dark:flex"
             />
           </a>
           <div className="hiddentext-center  py-2 lg:flex lg:justify-center lg:items-start lg:pb-4">

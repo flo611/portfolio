@@ -22,20 +22,32 @@ const NavbarMobile = () => {
               alt="logoPF"
               width={60}
               height={60}
+              className="dark:hidden"
+            />
+          </Link>
+          <Link href="/">
+            <Image
+              src="images/logos/whiteportfolio.svg"
+              alt="logoPF"
+              width={60}
+              height={60}
+              className="hidden dark:flex"
             />
           </Link>
         </div>
         <div className="flex flex-row justify-center">
-          <button type="button" onClick={() =>{
-            DarkMode();
-             setShowButton(!showButton);
-             } }
-             >
-               {showButton === false ? (
-                  <BsToggleOff size={40} className="text-amber-800" />
-                ) : (
-                  <BsToggleOn size={40} className="text-amber-800" />
-                )}
+          <button
+            type="button"
+            onClick={() => {
+              DarkMode();
+              setShowButton(!showButton);
+            }}
+          >
+            {showButton === false ? (
+              <BsToggleOff size={40} className="text-amber-800" />
+            ) : (
+              <BsToggleOn size={40} className="text-slate-100" />
+            )}
           </button>
         </div>
       </nav>

@@ -10,11 +10,12 @@ const DarkMode = () => {
 
   let body = document.body.classList.contains("dark");
   let bmMenu = document.getElementsByClassName("bm-menu");
+ 
 
   if (!body) {
     console.log(bmMenu);
     document.body.classList.add("dark");
-    bmMenu[0].classList.add("dark:bg-black");
+    bmMenu[0].classList.add("dark:bg-indigo-950");
   } else if (body) {
     document.body.classList.remove("dark");
   }

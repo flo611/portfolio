@@ -13,13 +13,25 @@ const NavbarDesktop = () => {
     <header>
       <nav className="font-handjetRegular hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100 dark:bg-indigo-950">
         <div>
-          <div className="pt-5">
-            <a href="http://localhost:3000">
+          <div className="pt-5 dark:hidden">
+            <a href="http://localhost:3000 ">
               <Image
                 src="images/logos/portfolio.svg"
                 alt="logoPF"
                 width={75}
                 height={75}
+             
+              />
+            </a>
+          </div>
+          <div className="pt-5 hidden dark:flex">
+            <a href="http://localhost:3000 ">
+              <Image
+                src="images/logos/whiteportfolio.svg"
+                alt="logoPF"
+                width={75}
+                height={75}
+              
               />
             </a>
           </div>
