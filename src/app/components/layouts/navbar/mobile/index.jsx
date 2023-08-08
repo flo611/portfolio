@@ -11,7 +11,7 @@ const NavbarMobile = () => {
   const [showButton, setShowButton] = useState(false);
   return (
     <header>
-      <nav className=" z-10 grid grid-cols-3 bg-slate-100 dark:bg-indigo-950 dark:text-lime-400 fixed top-0 w-full items-center py-3 lg:hidden ">
+      <nav className=" z-10 grid grid-cols-3 text-amber-800 bg-slate-100 dark:bg-indigo-950 dark:text-slate-100 fixed top-0 w-full items-center py-3 lg:hidden ">
         <div>
           <Menu />
         </div>
@@ -44,9 +44,9 @@ const NavbarMobile = () => {
             }}
           >
             {showButton === false ? (
-              <BsToggleOff size={40} className="text-amber-800" />
+              <BsToggleOff size={40} />
             ) : (
-              <BsToggleOn size={40} className="text-slate-100" />
+              <BsToggleOn size={40} />
             )}
           </button>
         </div>
