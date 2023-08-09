@@ -16,7 +16,7 @@ const Skills = () => {
           <dl >
             <dt
               className="text-sm font-medium  text-white dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pr-8"
-              data-aos="fade-down"
+              //data-aos="fade-down"
             >
               <Image
                 src="/images/html.svg"
@@ -41,8 +41,8 @@ const Skills = () => {
         <div>
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pl-8"
-              data-aos="fade-down"
+              className=" my-3 text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pl-8"
+              //data-aos="fade-down"
             >
               <Image
                 src="/images/css.svg"
@@ -67,8 +67,8 @@ const Skills = () => {
         <div className="lg:py-8">
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pr-8"
-              data-aos="fade-down"
+              className=" text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pr-8"
+              //data-aos="fade-down"
             >
               <Image
                 src="/images/javascript.svg"
@@ -89,11 +89,11 @@ const Skills = () => {
             </dt>
           </dl>
         </div>
-        <div className="lg:py-8">
+        <div className="lg:py-10">
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pl-8"
-              data-aos="fade-down"
+              className=" my-3 text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pl-8"
+              //data-aos="fade-down"
             >
               <Image
                 src="/images/php.svg"
@@ -117,8 +117,8 @@ const Skills = () => {
         <div>
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pr-8"
-              data-aos="fade-down"
+              className=" text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pr-8"
+              //data-aos="fade-down"
             >
               <Image
                 src="/images/symfony.svg"
@@ -142,8 +142,8 @@ const Skills = () => {
         <div>
           <dl>
             <dt
-              className="text-sm font-medium text-gray-500 dark:text-gray-400 lg:mx-6 lg:text-lg lg:my-6 lg:pl-8"
-              data-aos="fade-down"
+              className=" pt-3 text-sm font-medium text-gray-500 dark:text-gray-400 lg:pt-0 lg:mx-6 lg:text-lg lg:my-6 lg:pl-8"
+              //data-aos="fade-down"
             >
               <Image
                 src="/images/postman.svg"
