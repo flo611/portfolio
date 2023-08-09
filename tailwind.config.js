@@ -17,6 +17,8 @@ module.exports = {
         handjetRegular: ["Handjet-regular", "cursive"],
         handjetLight: ["Handjet-light", "cursive"],
         oswaldRegular: ["Oswald-regular", "sans-serif"],
+        nunitoRegular: ["Nunito-regular", "sans-serif"],
+        assistantRegular: ["Assistant-regular","sans-serif"]
       },
     },
   },

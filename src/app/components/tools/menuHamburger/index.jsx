@@ -43,7 +43,7 @@ const MenuHamburger = () => {
             />
           </a>
         </div>
-        <div className="py-16">
+        <div className="py-16 font-nunitoRegular">
           <ul className="flex flex-col list-none text-amber-800 dark:text-slate-100">
             <li className="">
               <AnchorLink
@@ -93,7 +93,7 @@ const MenuHamburger = () => {
             </li>
           </ul>
         </div>
-        <div className="py-8 text-amber-800 dark:text-slate-100">
+        <div className="py-8 text-amber-800 dark:text-slate-100 font-nunitoRegular">
           <div className="flex flex-row justify-center">
             <button>
               <a href="https://fr.linkedin.com/in/florian-sabine-75003a273">
@@ -117,7 +117,7 @@ const MenuHamburger = () => {
               </a>
             </button>
           </div>
-          <div className="flex flex-col items-center italic py-1">
+          <div className="flex flex-col items-center italic py-1 ">
             &copy; Florian Sabine
           </div>
         </div>

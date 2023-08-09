@@ -15,8 +15,8 @@ const TypeAnimations = () => {
         1000,
       ]}
       wrapper="span"
-      speed={50}
-      style={{ fontSize: "2em", display: "inline-block" }}
+      speed={40}
+      style={{ fontSize: "2em", display: "contents" }}
       repeat={Infinity}
     />
   );

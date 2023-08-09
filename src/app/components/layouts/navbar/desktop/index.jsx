@@ -36,28 +36,28 @@ const NavbarDesktop = () => {
             </a>
           </div>
         </div>
-        <div className="hidden lg:flex flex-row w-full py-5 justify-center items-center list-none text-amber-800 dark:text-slate-100 text-lg uppercase font-medium">
+        <div className="hidden lg:flex flex-row w-full py-5 justify-center items-center list-none text-amber-800 dark:text-slate-100 text-lg uppercase font-medium font-nunitoRegular">
           <ul className="w-full grid grid-cols-4">
             <div className="flex flex-row items-center justify-between col-span-3 pl-40">
-              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800">
+              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800 dark:hover:text-amber-800 dark:hover:border-cyan-800">
                 <a href="http://localhost:3000">Accueil</a>
               </li>
-              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800">
+              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800 dark:hover:text-amber-800 dark:hover:border-cyan-800">
                 <AnchorLink offset={() => 150} href="#skills">
                   Compétences
                 </AnchorLink>
               </li>
-              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800">
+              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800 dark:hover:text-amber-800 dark:hover:border-cyan-800">
                 <AnchorLink offset={() => 115} href="#projects">
                   Projets
                 </AnchorLink>
               </li>
-              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800">
+              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800 dark:hover:text-amber-800 dark:hover:border-cyan-800">
                 <AnchorLink offset={() => 118} href="#timeline">
                   Expériences
                 </AnchorLink>
               </li>
-              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800">
+              <li className="hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800 dark:hover:text-amber-800 dark:hover:border-cyan-800">
                 <AnchorLink offset={() => 118} href="#contact">
                   Contact
                 </AnchorLink>

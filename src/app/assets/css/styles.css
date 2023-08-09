@@ -18,6 +18,15 @@
   font-family: "Handjet-light";
   src: url("../fonts/Handjet/static/Handjet-Light.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Nunito-regular";
+  src: url("../fonts/Nunito/static/Nunito-Regular.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "Assistant-regular";
+  src: url("../fonts/Assistant/static/Assistant-Regular.ttf") format("truetype")
+}
 
 
 .react-sweet-progress-symbol {

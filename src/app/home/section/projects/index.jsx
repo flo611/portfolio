@@ -8,7 +8,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Projects = () => {
   return (
     <section id="projects">
-      <h1 className="w-full flex justify-center text-amber-800 dark:text-amber-600 uppercase pt-6 pb-4 font-bold lg:py-20 lg:text-3xl">
+      <h1 className="w-full flex justify-center text-amber-800 dark:text-amber-600 uppercase pt-6 pb-4 font-bold font-nunitoRegular lg:py-20 lg:text-3xl">
         Mes projets
       </h1>
       <div>

@@ -33,12 +33,12 @@ const Introduction = () => {
               <Button type="button" value="Mes projets" />
             </AnchorLink>
           </div>
-          <p className="py-12 text-white  mx-7 text-xs  md:mx-24 md:text-center md:text-base lg:text-center lg:text-lg font-handjetLight">
+          <p className="py-12 text-white mx-7 text-xs  md:mx-24 md:text-center md:text-base lg:text-center lg:text-lg font-nunitoRegular">
             Bonjour, je suis Florian !
-            <br />
-            <TypeAnimations />
+            <br/>
+            <TypeAnimations/>
           </p>
-          <div className="flex flex-row justify-center pb-26 lg:pb-24">
+          <div className="flex flex-row justify-center pb-26 lg:pb-24 ">
             <a href="https://www.instagram.com/sports.fr_officiel/">
               <Keyword value="#Sports" />
             </a>
