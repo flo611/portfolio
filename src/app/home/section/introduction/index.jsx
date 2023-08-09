@@ -11,21 +11,21 @@ const Introduction = () => {
   return (
     <section
       id="intro"
-      className="flex flex-col  from-cyan-300 to-cyan-700  dark:dark:bg-gradient-to-r dark:from-cyan-600 dark:to-purple-950 mx-3 md:mt-0 lg:w-full"
+      className="h-screen flex flex-col  from-cyan-300 to-cyan-700  dark:dark:bg-gradient-to-r dark:from-cyan-600 dark:to-purple-950 mx-3 md:mt-0 lg:w-full"
       // data-aos="fade-down-right"
     >
-      <div className="mt-28 lg:mt-56">
+      <div className="mt-24 lg:mt-56">
         <div className="flex flex-col">
           <div className="flex justify-center">
             <Image
-              className="flex flex-row justify-center py-6 lg:py-8 "
+              className="flex flex-row justify-center py-4 lg:py-8 "
               src="/images/logos/portfolio.svg"
               alt=""
               width="80"
               height="80"
             />
           </div>
-          <div className="flex flex-col items-center pt-8 lg:pt-0 lg:flex-row lg:justify-center">
+          <div className="flex flex-col items-center pt-6 lg:pt-0 lg:flex-row lg:justify-center">
             <a href="/images/cv.svg" className="pb-2 lg:pb-0 lg:pr-4">
               <Button type="button" value="Mon CV" />
             </a>
@@ -33,11 +33,13 @@ const Introduction = () => {
               <Button type="button" value="Mes projets" />
             </AnchorLink>
           </div>
-          <p className="py-12 text-white mx-7 text-xs  md:mx-24 md:text-center md:text-base lg:text-center lg:text-lg font-nunitoRegular">
-            Bonjour, je suis Florian !
-            <br/>
-            <TypeAnimations/>
-          </p>
+          <div className="py-10 text-white mx-7 md:mx-24 md:text-center md:text-base lg:text-center text-lg font-nunitoRegular">
+            <TypeAnimations />
+            <p className="pt-4">
+              Je suis passioné de sports,de nature et de voyages. Si vous voulez
+              en savoir plus vous êtes au bon endroit.
+            </p>
+          </div>
           <div className="flex flex-row justify-center pb-26 lg:pb-24 ">
             <a href="https://www.instagram.com/sports.fr_officiel/">
               <Keyword value="#Sports" />

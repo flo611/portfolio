@@ -6,17 +6,19 @@ const TypeAnimations = () => {
   return (
     <TypeAnimation
       sequence={[
+        "Bonjour, je suis Florian !",
+        1000,
         // Same substring at the start will only be typed out once, initially
-        "Je suis un développeur web junior",
+        "Bonjour, je suis un développeur web 💻",
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        "Je suis à la recherche d'un stage pour Décembre et Janvier 2023/2024",
+        "Bonjour, je suis à la recherche d'un stage 💼",
         1000,
-        "Je suis passioné de sports,de nature et de voyages. Si vous voulez en savoir plus vous êtes au bon endroit.",
-        1000,
+        // "Je suis passioné de sports,de nature et de voyages. Si vous voulez en savoir plus vous êtes au bon endroit.",
+        // 1000,
       ]}
       wrapper="span"
       speed={40}
-      style={{ fontSize: "2em", display: "contents" }}
+      style={{ display: "contents" }}
       repeat={Infinity}
     />
   );
