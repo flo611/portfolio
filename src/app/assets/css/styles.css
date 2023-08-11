@@ -28,6 +28,10 @@
   src: url("../fonts/Assistant/static/Assistant-Regular.ttf") format("truetype")
 }
 
+@font-face {
+  font-family: ;
+  src: url();
+}
 
 .react-sweet-progress-symbol {
   color: white !important;

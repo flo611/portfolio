@@ -8,7 +8,7 @@ const Form = () => {
   };
 
   return (
-    <form className="contain my-12 lg:my-0 flex flex-col mx-8 px-3 pt-6 lg:grid lg:grid-cols-2 lg:mx-96 lg:mb-20 hover:scale-100 hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
+    <form className="contain my-12 font-assistantRegular flex flex-col mx-8 px-3 pt-6  md:mx-16 lg:my-0 lg:grid lg:grid-cols-2 lg:mx-96 lg:mb-20 hover:scale-100 hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
       <div className="flex flex-col items-center lg:ml-12 ">
         <label htmlFor="">Votre nom</label>
         <Input type="text" className="w-3/4 dark:hover:bg-cyan-950" />
