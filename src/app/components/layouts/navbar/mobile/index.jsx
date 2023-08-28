@@ -16,7 +16,7 @@ const NavbarMobile = () => {
           <Menu />
         </div>
         <div className="flex flex-row justify-center">
-          <Link href="/">
+          <Link href="https://sabine-portfolio.fr/">
             <Image
               src="images/logos/portfolio.svg"
               alt="logoPF"

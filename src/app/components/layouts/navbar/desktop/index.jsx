@@ -5,6 +5,7 @@ import Image from "next/image";
 import { BsToggleOff, BsToggleOn } from "react-icons/bs";
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import Link from "next/link";
 
 const NavbarDesktop = () => {
   const [showButton, setShowButton] = useState(false);
@@ -14,24 +15,22 @@ const NavbarDesktop = () => {
       <nav className="font-handjetRegular hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100 dark:bg-indigo-950">
         <div>
           <div className="pt-5 dark:hidden">
-            <a href="http://localhost:3000 ">
+            <a href="https://sabine-portfolio.fr/ ">
               <Image
                 src="images/logos/portfolio.svg"
                 alt="logoPF"
                 width={75}
                 height={75}
-             
               />
             </a>
           </div>
           <div className="pt-5 hidden dark:flex">
-            <a href="http://localhost:3000 ">
+            <a href="https://sabine-portfolio.fr/ ">
               <Image
                 src="images/logos/whiteportfolio.svg"
                 alt="logoPF"
                 width={75}
                 height={75}
-              
               />
             </a>
           </div>

@@ -14,15 +14,15 @@ const Introduction = () => {
       className="h-screen flex flex-col  from-cyan-300 to-cyan-700  dark:dark:bg-gradient-to-r dark:from-cyan-600 dark:to-purple-950 mx-3 md:mt-0 lg:w-full"
       // data-aos="fade-down-right"
     >
-      <div className="mt-24 lg:mt-56">
-        <div className="flex flex-col">
-          <div className="flex justify-center">
+      <div className="mt-24 lg:mt-52">
+        <div className="flex flex-col ">
+          <div className="flex justify-center  ">
             <Image
-              className="flex flex-row justify-center py-4 lg:py-8 "
-              src="/images/logos/portfolio.svg"
-              alt=""
-              width="80"
-              height="80"
+              className="flex flex-row  justify-center rounded-full  py-4 lg:py-10 "
+              src="/images/profil.jpg"
+              alt="profil"
+              width="100"
+              height="100"
             />
           </div>
           <div className="flex flex-col items-center pt-6 lg:pt-0 lg:flex-row lg:justify-center">
@@ -33,9 +33,9 @@ const Introduction = () => {
               <Button type="button" value="Mes projets" />
             </AnchorLink>
           </div>
-          <div className="py-10 text-white mx-7 md:mx-24 md:text-center md:text-base lg:text-center text-lg font-nunitoRegular">
+          <div className="py-10 text-white mx-7 md:mx-24 md:text-center md:text-base lg:text-center lg:text-2xl font-nunitoRegular">
             <TypeAnimations />
-            <p className="pt-4">
+            <p className="pt-4 ">
               Je suis passioné de sports,de nature et de voyages. Si vous voulez
               en savoir plus vous êtes au bon endroit.
             </p>

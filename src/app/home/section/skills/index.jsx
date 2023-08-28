@@ -3,11 +3,10 @@
 import "react-sweet-progress/lib/style.css";
 import Image from "next/image";
 
-
 const Skills = () => {
   return (
     <section id="skills">
-      <h1 className="w-full flex flex-row text-amber-800 dark:text-amber-600 justify-center uppercase pt-10 pb-4 font-bold font-nunitoRegular  lg:pb-20 lg:text-3xl">
+      <h1 className="w-full flex flex-row text-amber-800 dark:text-amber-600 justify-center uppercase pt-14 pb-4 font-bold font-nunitoRegular  lg:pb-20 lg:text-3xl">
         Mes compétences
       </h1>
       <div className=" pb-4 mx-4 md:mx-14 lg:pb-0 lg:my-14 lg:mx-72 hover:transition hover:ease-in-out hover:duration-200 lg:hover:scale-105  ">
@@ -16,11 +15,9 @@ const Skills = () => {
             <div className="flex flex-col items-center justify-center lg:mx-4 font-assistantRegular lg:grid lg:grid-cols-2 lg:items-center lg:py-4 ">
               <div className="flex flex-col items-center justify-center ">
                 <h1 className="pb-3">
-                  <span className=" border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800" >
-                    HTML
-                  </span>
+                  <span className=" border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800"></span>
                 </h1>
-                <Image 
+                <Image
                   src="/images/html.svg"
                   width={40}
                   height={40}
@@ -30,10 +27,10 @@ const Skills = () => {
               <div className="flex flex-col items-center justify-center">
                 <h1 className="pb-3">
                   <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800">
-                    CSS
+              
                   </span>
                 </h1>
-                <Image 
+                <Image
                   src="/images/css.svg"
                   width={40}
                   height={40}
@@ -42,9 +39,7 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center lg:py-6">
                 <h1 className="pb-3">
-                  <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800">
-                    JavaScript
-                  </span>
+                  <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800"></span>
                 </h1>
                 <Image
                   src="/images/javascript.svg"
@@ -55,9 +50,7 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h1 className="pb-3">
-                  <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800">
-                    PHP
-                  </span>
+                  <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800"></span>
                 </h1>
                 <Image
                   src="/images/php.svg"
@@ -68,9 +61,7 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h1 className="pb-3">
-                  <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800">
-                    Symfony
-                  </span>
+                  <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800"></span>
                 </h1>
                 <Image
                   src="/images/symfony.svg"
@@ -81,16 +72,13 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h1 className="pb-3">
-                  <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800">
-                    Postman
-                  </span>
+                  <span className="border-b-2 border-cyan-900 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800  dark:hover:text-amber-800 dark:hover:border-cyan-800"></span>
                 </h1>
                 <Image
                   src="/images/postman.svg"
                   width={40}
                   height={40}
                   alt="postman logo"
-                  
                 />
               </div>
             </div>
