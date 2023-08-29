@@ -17,7 +17,7 @@ const Experiences = () => {
       <div className="flex flex-col items-center md:mx-14  lg:grid lg:grid-cols-2">
         {data.map((element) => {
           return (
-            <div key={element.id} className="mt-6 px-4">
+            <div key={element.id} className="mt-6 px-4 ">
               <Card
                 title={element.title}
                 date={element.date}

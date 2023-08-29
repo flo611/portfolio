@@ -16,7 +16,7 @@ const Introduction = () => {
     >
       <div className="mt-24 lg:mt-52">
         <div className="flex flex-col ">
-          <div className="flex justify-center  ">
+          <div className="flex justify-center   ">
             <Image
               className="flex flex-row  justify-center rounded-full  py-4 lg:py-10 "
               src="/images/profil.jpg"

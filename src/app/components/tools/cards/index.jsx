@@ -13,12 +13,12 @@ const Card = (props) => {
         <hr className="border-2 rounded-lg border-white mx-8 lg:mx-16 my-6" />
         <div className="card rounded-lg p-4 lg:p-8 ">
           <div className="lg:mx-4 font-assistantRegular  ">
-            <h1>
-              <span className="font-bold border-b-2 border-cyan-900">
+            <h1 >
+              <span className="font-bold  border-b-2 border-cyan-900 ">
                 Intitulé du poste
               </span>
-              <br />
-              {props.title}
+             <br />
+              <span className="">{props.title}</span>
             </h1>
             <h1 className="py-3 lg:py-10">
               <span className="font-bold border-b-2 border-cyan-900">Date</span>
