@@ -19,7 +19,7 @@ const NavbarMobile = () => {
           <Link href="https://sabine-portfolio.fr/">
             <Image
               src="images/logos/portfolio.svg"
-              alt="logoPF"
+              alt="logoPFblack"
               width={60}
               height={60}
               className="dark:hidden"
@@ -28,7 +28,7 @@ const NavbarMobile = () => {
           <Link href="/">
             <Image
               src="images/logos/whiteportfolio.svg"
-              alt="logoPF"
+              alt="logoPFwhite"
               width={60}
               height={60}
               className="hidden dark:flex"

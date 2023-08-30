@@ -16,7 +16,7 @@ const Introduction = () => {
     >
       <div className="mt-24 lg:mt-52">
         <div className="flex flex-col ">
-          <div className="flex justify-center   ">
+          <div className="flex flex-row justify-center ">
             <Image
               className="flex flex-row  justify-center rounded-full  py-4 lg:py-10 "
               src="/images/profil.jpg"
@@ -25,6 +25,7 @@ const Introduction = () => {
               height="100"
             />
           </div>
+        
           <div className="flex flex-col items-center pt-6 lg:pt-0 lg:flex-row lg:justify-center">
             <a href="/images/cv.svg" className="pb-2 lg:pb-0 lg:pr-4">
               <Button type="button" value="Mon CV" />

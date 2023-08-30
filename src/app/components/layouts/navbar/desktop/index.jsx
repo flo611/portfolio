@@ -62,7 +62,7 @@ const NavbarDesktop = () => {
                 </AnchorLink>
               </li>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center ">
               <button
                 type="button"
                 onClick={() => {
