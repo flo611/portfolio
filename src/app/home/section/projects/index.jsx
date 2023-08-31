@@ -6,6 +6,8 @@ import Image from "next/image";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Link from "next/link";
 import { BsGithub } from "react-icons/bs";
+import {GiPlanetCore}from "react-icons/gi"
+
 
 
 const Projects = () => {
@@ -21,7 +23,7 @@ const Projects = () => {
           <div className="card rounded-lg p-4 lg:p-8 lg:m-4 ">
       <div>
         <Carousel
-          autoPlay
+         autoPlay
           infiniteLoop
           className="opacity-90 justify-center lg:z-10"
           showThumbs={0}
@@ -31,54 +33,74 @@ const Projects = () => {
           interval={2000}
         >
           <div >
-            <img
+            <Image
               src="/images/logos/white-logo naturopied.svg"
               className="h-80 w-80"
               alt="Naturopied"
               width={50}
               height={50}
             />
-            <button className=" text-amber-800 lg:flex flex-col items-center w-full dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="https://github.com/flo611/naturopied">
+            <div className=" flex flex-row justify-center mt-6 ">
+              <button className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="#">
+              <GiPlanetCore size={30} /> 
+            </a>
+          </button>
+          <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="https://github.com/flo611/portfolio">
               <BsGithub size={30} />
             </a>
           </button>
+              </div>
           </div>
           
-          <div>
-            <img
+          <div className="my-4">
+            <Image
               src="/images/logos/black-logo.svg"
               className="h-80 w-80"
               width={50}
               height={50}
               alt="Dvnet"
             />
-            <button className=" text-amber-800 lg:flex flex-col items-center w-full dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="https://github.com/Agence-BFC/BFC">
-              <BsGithub size={30} />
+           <div className=" flex flex-row justify-center mt-2 ">
+              <button className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="#">
+              <GiPlanetCore size={30} />
             </a>
           </button>
-          </div>
-          <div className="flex justify-center items-center h-80">
-            <AnchorLink offset={() => 150} href="#intro">
-              <div className="w-40 ">
-                <Image
-                  src="images/logos/portfolio.svg"
-                  alt="logoPF"
-                  width={10}
-                  height={10}
-                />
-                 <button className="lg:mt-10 text-amber-800 lg:flex flex-col lg:my-20 items-center w-full dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="https://github.com/flo611/portfolio">
-              <BsGithub size={30} />
-            </a>
-          </button>
-          <button className="lg:mt-10 text-amber-800 lg:flex flex-col items-center w-full dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+          <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
             <a href="https://github.com/flo611/portfolio">
               <BsGithub size={30} />
             </a>
           </button>
               </div>
+          </div>
+          <div className="flex justify-center items-center h-full my-14">
+            <AnchorLink offset={() => 150} href="#intro">
+              <div className=" flex items-center w-44 ">
+                <Image
+                  src="images/logos/portfolio.svg"
+                  alt="logoPF"
+                  width={30}
+                  height={30}
+                  className="flex flex-col items-center"
+                />
+                
+              </div>
+            
+              <div className=" flex flex-row justify-center mt-24 ">
+              <button className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="https://sabine-portfolio.fr/">
+              <GiPlanetCore size={30} />
+            </a>
+          </button>
+          <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="https://github.com/flo611/portfolio">
+              <BsGithub size={30} />
+            </a>
+          </button>
+              </div>
+              
             </AnchorLink>
           </div>
         </Carousel>
