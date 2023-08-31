@@ -14,11 +14,11 @@ const Introduction = () => {
       className="h-screen  flex flex-col  mx-3 md:mt-0 lg:w-full"
       // data-aos="fade-down-right"
     >
-      <div className="mt-24 lg:mt-52">
+      <div className="mt-24 md:mt-32 lg:mt-52">
         <div className="flex flex-col ">
-          <div className="flex flex-row justify-center ">
+          <div className="flex flex-row w-full justify-center  ">  
             <Image
-              className="flex flex-row  justify-center rounded-full  py-4 lg:py-10 "
+              className="flex flex-row  rounded-full w-32 h-32  lg:w-64 lg:h-64  items-center justify-center  "
               src="/images/profil.jpg"
               alt="profil"
               width="100"
@@ -26,7 +26,7 @@ const Introduction = () => {
             />
           </div>
         
-          <div className="flex flex-col items-center pt-6 lg:pt-0 lg:flex-row lg:justify-center">
+          <div className="flex flex-col items-center pt-10 md:pt-20 lg:pt-24 lg:flex-row lg:justify-center">
             <a href="/images/cv.svg" className="pb-2 lg:pb-0 lg:pr-4">
               <Button type="button" value="Mon CV" />
             </a>
