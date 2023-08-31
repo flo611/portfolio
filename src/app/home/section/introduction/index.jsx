@@ -18,7 +18,7 @@ const Introduction = () => {
         <div className="flex flex-col ">
           <div className="flex flex-row w-full justify-center  ">  
             <Image
-              className="flex flex-row  rounded-full w-32 h-32  lg:w-64 lg:h-64  items-center justify-center  "
+              className="flex flex-row  rounded-full w-32 h-32 lg:w-72 lg:h-72 lg:px-1 lg:py-1 lg:rotate-1 border-solid border-4 border-amber-800 shadow-lg shadow-amber-800/80 opacity-80  items-center justify-center "
               src="/images/profil.jpg"
               alt="profil"
               width="100"
@@ -30,7 +30,7 @@ const Introduction = () => {
             <a href="/images/cv.pdf" className="pb-2 lg:pb-0 lg:pr-4">
               <Button type="button" value="Mon CV" />
             </a>
-            <AnchorLink href="#projects" className="pt-2 lg:pt-0 lg:pl-4">
+            <AnchorLink  href="#projects" className="pt-2 lg:pt-0 lg:pl-4">
               <Button type="button" value="Mes projets" />
             </AnchorLink>
           </div>
