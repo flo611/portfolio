@@ -27,7 +27,7 @@ const Introduction = () => {
           </div>
         
           <div className="flex flex-col items-center pt-10 md:pt-20 lg:pt-24 lg:flex-row lg:justify-center">
-            <a href="/images/cv.svg" className="pb-2 lg:pb-0 lg:pr-4">
+            <a href="/images/cv.pdf" className="pb-2 lg:pb-0 lg:pr-4">
               <Button type="button" value="Mon CV" />
             </a>
             <AnchorLink href="#projects" className="pt-2 lg:pt-0 lg:pl-4">
