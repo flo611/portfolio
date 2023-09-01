@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="">
       <div className="flex flex-col bg-slate-100 dark:bg-indigo-950 lg:grid lg:grid-cols-3">
         <div className="flex flex-col justify-center items-center py-4 lg:pt-8 lg:col-span-2">
-          <a href="http://localhost:3000">
+          <a href="https://sabine-portfolio.fr/">
             <Image
               src="images/logos/portfolio.svg"
               alt="logoPF"
@@ -23,7 +23,7 @@ const Footer = () => {
               className=" dark:hidden"
             />
           </a>
-          <a href="http://localhost:3000">
+          <a href="https://sabine-portfolio.fr/">
             <Image
               src="images/logos/whiteportfolio.svg"
               alt="logoPF"
