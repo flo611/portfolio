@@ -6,7 +6,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <section id="skills">
-      <h1 className="w-full flex flex-row text-amber-800 dark:text-amber-600 justify-center uppercase pt-6 pb-4 font-bold font-nunitoRegular lg:pt-10 lg:pb-20 lg:text-3xl">
+      <h1 className="w-full flex flex-row text-amber-800 dark:text-amber-600 justify-center uppercase pt-6  pb-4 font-bold font-nunitoRegular lg:pt-10 lg:pb-20 lg:text-3xl">
         Mes compétences
       </h1>
       <div className=" pb-4 mx-4 md:mx-14 lg:pb-0 lg:my-14 lg:mx-72 hover:transition hover:ease-in-out hover:duration-200 lg:hover:scale-105  ">

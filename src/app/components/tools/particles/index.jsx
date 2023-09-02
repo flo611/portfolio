@@ -31,6 +31,7 @@ const Particlesbackground = () => {
   return (
     <>
       <Particles
+      alt="particlestar"
         theme={theme}
         id="tsparticles"
         particlesLoaded="particlesLoaded"

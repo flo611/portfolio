@@ -11,14 +11,14 @@ const Introduction = () => {
   return (
     <section
       id="intro"
-      className="h-screen  flex flex-col  mx-3 md:mt-0 lg:w-full"
-      // data-aos="fade-down-right"
+      className="h-screen md:h-1/2 flex flex-col  mx-3 md:mt-0 lg:w-full"
+      
     >
       <div className="mt-24 md:mt-32 lg:mt-52">
         <div className="flex flex-col ">
           <div className="flex flex-row w-full justify-center lg:pr-9 lg:pt-3 ">  
             <Image
-              className="flex flex-row  rounded-full w-32 h-32 lg:w-72 lg:h-72 lg:px-1 lg:py-1 lg:rotate-1 border-solid border-4 border-amber-800 shadow-lg shadow-amber-800/80 opacity-80  items-center justify-center "
+              className="flex flex-row  rounded-full w-32 h-32 lg:w-40 lg:h-40 lg:px-1 lg:py-1 lg:rotate-1 border-solid border-4 border-amber-800 shadow-lg shadow-amber-800/80 opacity-80  items-center justify-center "
               src="/images/profil.jpg"
               alt="profil"
               width="100"

@@ -37,6 +37,7 @@ const NavbarMobile = () => {
         </div>
         <div className="flex flex-row justify-center">
           <button
+          id="buttonlabel"
             type="button"
             onClick={() => {
               DarkMode();
