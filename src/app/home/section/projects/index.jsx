@@ -75,9 +75,10 @@ const Projects = () => {
           </button>
               </div>
           </div>
-          <div className="flex justify-center items-center h-full my-14">
-            <AnchorLink offset={() => 150} href="#intro">
+          <div className="flex flex-col justify-center items-center h-full my-14">
+            
               <div className=" flex items-center w-44 ">
+              <AnchorLink offset={() => 150} href="#intro">
                 <Image
                   src="images/logos/portfolio.svg"
                   alt="logoPF"
@@ -85,14 +86,17 @@ const Projects = () => {
                   height={30}
                   className="flex flex-col items-center"
                 />
-                
+                </AnchorLink>
               </div>
             
               <div className=" flex flex-row justify-center mt-24 ">
+             
               <button className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+              <AnchorLink offset={() => 150} href="#intro">
             <a href="https://sabine-portfolio.fr/">
               <GiPlanetCore size={30} />
             </a>
+            </AnchorLink>
           </button>
           <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
             <a href="https://github.com/flo611/portfolio">
@@ -101,7 +105,7 @@ const Projects = () => {
           </button>
               </div>
               
-            </AnchorLink>
+            
           </div>
         </Carousel>
       </div>
