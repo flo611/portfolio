@@ -47,7 +47,7 @@ const Projects = () => {
             </a>
           </button>
           <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="https://github.com/flo611/portfolio">
+            <a href="https://github.com/flo611/naturopiedback">
               <BsGithub size={30} />
             </a>
           </button>
@@ -69,7 +69,7 @@ const Projects = () => {
             </a>
           </button>
           <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="https://github.com/flo611/portfolio">
+            <a href="https://github.com/Agence-BFC">
               <BsGithub size={30} />
             </a>
           </button>
