@@ -1,11 +1,13 @@
 import Input from "@/app/components/tools/inputs";
 import Button from "@/app/components/tools/buttons";
+
 import "./styles.css";
 
 const Form = () => {
   const onSubmit = () => {
     alert("formulaire envoyé");
   };
+
 
   return (
     <form className="contain my-12 font-assistantRegular flex flex-col mx-8 px-3 pt-6  md:mx-16 lg:my-0 lg:grid lg:grid-cols-2 lg:mx-96 lg:mb-20 hover:scale-100 hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
@@ -45,6 +47,8 @@ const Form = () => {
       </div>
     </form>
   );
+
+  
 };
 
 export default Form;

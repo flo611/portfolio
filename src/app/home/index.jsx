@@ -5,6 +5,7 @@ import Skills from "@/app/home/section/skills";
 import Projects from "@/app/home/section/projects";
 import Experience from "@/app/home/section/experiences";
 import Contact from "@/app/home/section/contact";
+import Basic from "../components/tools/test";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Projects />
       <Experience />
       <Contact />
+      <Basic/>
     </Main>
   );
 };
