@@ -9,7 +9,7 @@ const Input = (props) => {
   );
 };
 
-Input.PropTypes = {
+Input.propTypes = {
   type: PropTypes.string.isRequired,
   className: PropTypes.string,
 };

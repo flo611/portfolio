@@ -7,6 +7,7 @@ import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Link from "next/link";
 
+
 const NavbarDesktop = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -15,7 +16,7 @@ const NavbarDesktop = () => {
       <nav className="font-handjetRegular hidden lg:flex w-full fixed top-0 z-50 flex-col items-center justify-center bg-slate-100 dark:bg-indigo-950">
         <div>
           <div className="pt-5 dark:hidden">
-            <a href="https://sabine-portfolio.fr/ ">
+            <a href="https://sabine-portfolio.fr/ " aria-label="voir mon site">
               <Image
                 src="images/logos/portfolio.svg"
                 alt="logoPF"
@@ -25,7 +26,7 @@ const NavbarDesktop = () => {
             </a>
           </div>
           <div className="pt-5 hidden dark:flex">
-            <a href="https://sabine-portfolio.fr/ ">
+            <a href="https://sabine-portfolio.fr/ "aria-label="voir mon site">
               <Image
                 src="images/logos/whiteportfolio.svg"
                 alt="logoPF"
@@ -65,6 +66,8 @@ const NavbarDesktop = () => {
             <div className="flex justify-center ">
               <button
                 type="button"
+                id="al"
+                aria-label="dark"
                 onClick={() => {
                   DarkMode();
                   setShowButton(!showButton);

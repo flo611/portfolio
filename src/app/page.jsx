@@ -9,9 +9,9 @@ import Footer from "@/app/components/layouts/footer";
 import Particlesbackground from "./components/tools/particles";
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init({ once: false });
-  }, []);
+  // useEffect(() => {
+  //   AOS.init({ once: false });
+  // }, []);
 
   return (
     <>

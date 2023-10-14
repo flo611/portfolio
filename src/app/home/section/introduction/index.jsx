@@ -18,7 +18,7 @@ const Introduction = () => {
         <div className="flex flex-col ">
           <div className="flex flex-row w-full justify-center lg:pr-9 lg:pt-3 ">  
             <Image
-              className="flex flex-row  rounded-full w-32 h-32 lg:w-40 lg:h-40 lg:px-1 lg:py-1 lg:rotate-1 border-solid border-4 border-amber-800 shadow-lg shadow-amber-800/80 opacity-80  items-center justify-center "
+              className="flex flex-row  rounded-full w-32 h-32 lg:w-40 lg:h-40 lg:px-1 lg:py-1 border-solid border-4 border-amber-800 shadow-lg shadow-amber-800/80 opacity-80  items-center justify-center "
               src="/images/profil.jpg"
               alt="profil"
               width="100"
