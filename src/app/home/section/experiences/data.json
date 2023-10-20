@@ -5,6 +5,7 @@
     "date": "2020/2021",
     "goal": "abc",
     "description": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements",
+    "longdescription": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements, Animateur randonnée, participation à des salons touristique, Maitrise du logiciel de Tourinsoft",
     "icon": "/images/tourisme.png"
   },
   {
@@ -13,6 +14,7 @@
     "date": "2020/2021",
     "goal": "abc",
     "description": "Check-in,Check-out Guest, Maîtrise du logiciel Opéra, Transport des bagages différents Hôtels du parc ",
+    "longdescription":"Ramassage des bagages dans les différents hôtels du Parc, préparation des pochettes VIP, vérification des réservations, contrôle recette du jour, remise du bilan en comptabilité, satisfaction clientèle",
     "icon": "/images/disneyland.svg"
   },
 
@@ -22,6 +24,7 @@
     "date": "2021/2022",
     "goal": "abc",
     "description": "Saisie LTA, Maîtrise du logiciel Accos, Suivi des stocks ULD, Contrôle marchandises magasin",
+    "longdescription":"Controle du magasin, vérification en normité des palettes et de leur contenu avant départ de l'avion,Saisie informatique des marchandises en départ, Controle des stocks des conteneurs et palettes, Suivi des trucks",
     "icon": "/images/airchina.svg"
   },
   {
@@ -30,6 +33,7 @@
     "date": "2022/2023",
     "goal": "abc",
     "description": "Gestion de l'Office de Tourisme, développement de l'office, Gestion de projets, Visite guidée",
+    "longdescription":"Développement de la randonnée, Gestion des stocks boutique, Réalisation du bilan annuel, Réalisation de supports papiers et numérique, Réunion touristique, Visite guidée de la Ville de Sées et de sa Cathédrale, Optimisation des coûts",
     "icon": "/images/tourisme.png"
   }
 ]

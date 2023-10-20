@@ -1,6 +1,8 @@
 "use client";
 import Card from "@/app/components/tools/cards";
 import data from "./data.json";
+import ReactCardFlip from "react-card-flip";
+import React, { Component } from "react";
 
 const Experiences = () => {
   const showContent = (props) => {
@@ -22,6 +24,7 @@ const Experiences = () => {
                 title={element.title}
                 date={element.date}
                 description={element.description}
+                longdescription={element.longdescription}
                 icon={element.icon}
                 onClick={() => showContent(element)}
               />
@@ -32,5 +35,8 @@ const Experiences = () => {
     </section>
   );
 };
+
+
+
 
 export default Experiences;
