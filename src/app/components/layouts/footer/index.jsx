@@ -40,23 +40,23 @@ const Footer = () => {
         </div>
         <hr className="lg:hidden" />
         <div className="flex justify-center py-4 lg:text-8xl lg:w-full">
-          <button className="text-amber-800 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="https://fr.linkedin.com/in/florian-sabine-75003a273">
+          <button type="button" title="linkedin" className="text-amber-800 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="https://fr.linkedin.com/in/florian-sabine-75003a273" aria-label="Voir mon linkedin">
               <BsLinkedin size={30} />
             </a>
           </button>
-          <button className="px-4 lg:px-8 text-amber-800 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="https://github.com/flo611">
+          <button type="button" title="github" className="px-4 lg:px-8 text-amber-800 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="https://github.com/flo611" aria-label="Voir mon github">
               <BsGithub size={30} />
             </a>
           </button>
-          <button className="text-amber-800 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="https://discord.com/channels/@flo611">
+          <button  type="button" title="discord" className="text-amber-800 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="https://discord.com/channels/@flo611" aria-label="Voir mon discord">
               <BsDiscord size={30} />
             </a>
           </button>
-          <button className="pl-4 lg:pl-8 text-amber-800 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-            <a href="mailto:contact@sabine-portfolio.fr">
+          <button  type="button" title="email"className="pl-4 lg:pl-8 text-amber-800 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <a href="mailto:contact@sabine-portfolio.fr" aria-label="Envoyez-moi un email">
               <BsEnvelopeFill size={30} />
             </a>
           </button>

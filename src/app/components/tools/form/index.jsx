@@ -66,7 +66,7 @@ const Form = () => (
             onSubmit={handleSubmit}
           >
             <div className="flex flex-col items-center lg:ml-12 ">
-              <label htmlFor="">Votre nom</label>
+              <label htmlFor="name">Votre nom</label>
               <Input
                 type="text"
                 name="name"
@@ -76,7 +76,7 @@ const Form = () => (
             </div>
 
             <div className="flex flex-col items-center py-4 lg:pt-0 lg:mr-12">
-              <label htmlFor="">Votre prénom</label>
+              <label htmlFor="surname">Votre prénom</label>
               <Input
                 type="text"
                 name="surname"
@@ -85,7 +85,7 @@ const Form = () => (
               />
             </div>
             <div className="flex flex-col items-center lg:pt-4 lg:ml-12">
-              <label htmlFor="">Votre Téléphone</label>
+              <label htmlFor="phone">Votre Téléphone</label>
               <Input
                 type="text"
                 name="phone"
@@ -94,7 +94,7 @@ const Form = () => (
               />
             </div>
             <div className="flex flex-col items-center py-4 lg:mr-12">
-              Votre adresse email
+             <label htmlFor="email"> Votre adresse email</label>
               <Input
                 className="w-3/4  dark:hover:bg-cyan-950"
                 type="email"
@@ -108,7 +108,7 @@ const Form = () => (
             {errors.email && touched.email && errors.email}
 
             <div className="mx-8  flex flex-col items-center  lg:justify-center lg:col-span-2 lg:py-4 lg:mx-2">
-              <label htmlFor="">Objet du message</label>
+              <label htmlFor="message">Objet du message</label>
 
               <textarea
                 name="message"

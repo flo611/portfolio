@@ -48,13 +48,13 @@ const Projects = () => {
           
             <div className=" flex flex-row justify-center mt-24 ">
            
-            <button className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+            <button  type="button" title="Website"className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
           <a href="https://shiny-semifreddo-a7ecfe.netlify.app">
             <GiPlanetCore size={30} />
           </a>
    
         </button>
-        <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+        <button type="button" title="github" className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
           <a href="https://github.com/flo611/tt-front">
             <BsGithub size={30} />
           </a>
@@ -72,12 +72,12 @@ const Projects = () => {
               height={50}
             />
             <div className=" flex flex-row justify-center mt-6 ">
-              <button className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+              <button type="button" title="Website" className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
             <a href="https://naturopied.sabine-portfolio.fr/">
               <GiPlanetCore size={30} /> 
             </a>
           </button>
-          <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+          <button  type="button" title="github" className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
             <a href="https://github.com/flo611/naturopiedback">
               <BsGithub size={30} />
             </a>
@@ -94,12 +94,12 @@ const Projects = () => {
               alt="Dvnet"
             />
            <div className=" flex flex-row justify-center mt-2 ">
-              <button className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+              <button type="button" title="Website" className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
             <a href="#">
               <GiPlanetCore size={30} />
             </a>
           </button>
-          <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
+          <button type="button" title="github" className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
             <a href="https://github.com/Agence-BFC">
               <BsGithub size={30} />
             </a>
