@@ -37,7 +37,7 @@ const Projects = () => {
             <div className=" flex items-center w-44 ">
             <AnchorLink offset={() => 150} href="#intro">
               <Image
-                src="/images/logos/ttfront.png"
+                src="/images/logos/be-dev.svg"
                 alt="logoPF"
                 width={120}
                 height={120}
@@ -49,13 +49,13 @@ const Projects = () => {
             <div className=" flex flex-row justify-center mt-24 ">
            
             <button  type="button" title="Website"className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-          <a href="https://shiny-semifreddo-a7ecfe.netlify.app">
+          <a href="https://be-dev.org">
             <GiPlanetCore size={30} />
           </a>
    
         </button>
         <button type="button" title="github" className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
-          <a href="https://github.com/flo611/tt-front">
+          <a href="https://github.com/bedev-org/be-dev">
             <BsGithub size={30} />
           </a>
         </button>
