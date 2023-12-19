@@ -38,7 +38,7 @@ const Introduction = () => {
             <TypeAnimations />
             <p className="pt-4 ">
               Je suis passioné de sports,de nature et de voyages. Si vous voulez
-              en savoir plus vous êtes au bon endroit.
+              en savoir plus vous êtes au bon endroit!
             </p>
           </div>
           <div className="flex flex-row justify-center pb-26 lg:pb-24 ">
