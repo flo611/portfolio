@@ -21,7 +21,7 @@ const Skills = () => {
                   alt="html logo"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center pt-4 lg:pb-0">
+              <div className="flex flex-col items-center justify-center pt-4 lg:pt-0 lg:pb-0">
                 <Image
                   src="/images/css.svg"
                   width={60}
@@ -29,7 +29,7 @@ const Skills = () => {
                   alt="css logo"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center py-6 lg:py-0">
+              <div className="flex flex-col items-center justify-center py-6 lg:pt-0  lg:py-0">
                 <Image
                   src="/images/javascript.svg"
                   width={60}
@@ -37,7 +37,7 @@ const Skills = () => {
                   alt="javascript logo"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center py-6 lg:py-0">
+              <div className="flex flex-col items-center justify-center py-6 lg:pt-0  lg:py-0">
                 <Image
                   src="/images/php.svg"
                   width={80}
@@ -45,7 +45,7 @@ const Skills = () => {
                   alt="php logo"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center lg:py-10 ">
+              <div className="flex flex-col items-center justify-center lg:py-16 ">
                 <Image
                   src="/images/symfony.svg"
                   width={60}
@@ -61,7 +61,7 @@ const Skills = () => {
                   alt="postman logo"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center py-6 lg:py-0">
+              <div className="flex flex-col items-center justify-center py-6 ">
                 <Image
                   src="/images/react.svg"
                   width={60}

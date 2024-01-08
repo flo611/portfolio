@@ -1,21 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Conseiller séjour sur le territoire de l'Office de Tourisme Flers",
-    "date": "2020/2021",
+    "title": "Stage développeur web HelloDev Paris",
+    "date": "2023/2024",
     "goal": "abc",
-    "description": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements",
-    "longdescription": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements, Animateur randonnée, participation à des salons touristique, Maitrise du logiciel de Tourinsoft",
-    "icon": "/images/tourisme.png"
+    "description": "Réaliser un site internet pour l'association SFCosmeto côté Back-end et Front-end. Language PHP,JS utilisation de React et Tailwind. ",
+    "longdescription": "Réaliser du Cahier des chargers, Création de la maquette Figma, utilisation du language PHP pour la création des routes du token, language JavaScript pour le côté front avec le formulaire et axios",
+    "icon": "/images/hellodev.png"
   },
+
   {
     "id": 2,
-    "title": "Réceptionniste et Bagagiste Disneyland Paris",
-    "date": "2020/2021",
+    "title": "Responsable Office de Tourisme des Sources de l'Orne",
+    "date": "2022/2023",
     "goal": "abc",
-    "description": "Check-in,Check-out Guest, Maîtrise du logiciel Opéra, Transport des bagages différents Hôtels du parc ",
-    "longdescription":"Ramassage des bagages dans les différents hôtels du Parc, préparation des pochettes VIP, vérification des réservations, contrôle recette du jour, remise du bilan en comptabilité, satisfaction clientèle",
-    "icon": "/images/disneyland.svg"
+    "description": "Gestion de l'Office de Tourisme, développement de l'office, Gestion de projets, Visite guidée",
+    "longdescription":"Développement de la randonnée, Gestion des stocks boutique, Réalisation du bilan annuel, Réalisation de supports papiers et numérique, Réunion touristique, Visite guidée de la Ville de Sées et de sa Cathédrale, Optimisation des coûts",
+    "icon": "/images/tourisme.png"
   },
 
   {
@@ -27,13 +28,13 @@
     "longdescription":"Controle du magasin, vérification en normité des palettes et de leur contenu avant départ de l'avion,Saisie informatique des marchandises en départ, Controle des stocks des conteneurs et palettes, Suivi des trucks",
     "icon": "/images/airchina.svg"
   },
-  {
+ {
     "id": 4,
-    "title": "Responsable Office de Tourisme des Sources de l'Orne",
-    "date": "2022/2023",
+    "title": "Conseiller séjour sur le territoire de l'Office de Tourisme Flers",
+    "date": "2020/2021",
     "goal": "abc",
-    "description": "Gestion de l'Office de Tourisme, développement de l'office, Gestion de projets, Visite guidée",
-    "longdescription":"Développement de la randonnée, Gestion des stocks boutique, Réalisation du bilan annuel, Réalisation de supports papiers et numérique, Réunion touristique, Visite guidée de la Ville de Sées et de sa Cathédrale, Optimisation des coûts",
+    "description": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements",
+    "longdescription": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements, Animateur randonnée, participation à des salons touristique, Maitrise du logiciel de Tourinsoft",
     "icon": "/images/tourisme.png"
   }
 ]
