@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Keyword from "@/app/components/tools/keyword";
 import Button from "@/app/components/tools/buttons";
-import Link from "next/link";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import TypeAnimations from "@/app/components/tools/typeAnimation";
 
