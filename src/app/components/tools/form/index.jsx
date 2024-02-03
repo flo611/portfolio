@@ -33,10 +33,21 @@ const ContactForm = () => {
 
   useEffect(() => {
     const handleBeforeUnload = (event) => {
-      const confirmationMessage =
-        "Vous allez perdre les données du formulaire. Êtes-vous sûr de vouloir quitter ?";
-      event.returnValue = confirmationMessage;
-      return confirmationMessage;
+      const formInputs = document.querySelectorAll('input[type="text"], textarea');
+      let isFormDirty = false;
+
+      formInputs.forEach(input => {
+        if (input.value.trim() !== '') {
+          isFormDirty = true;
+        }
+      });
+
+      if (isFormDirty) {
+        const confirmationMessage =
+          "Vous allez perdre les données du formulaire. Êtes-vous sûr de vouloir quitter ?";
+        event.returnValue = confirmationMessage;
+        return confirmationMessage;
+      }
     };
 
     window.addEventListener("beforeunload", handleBeforeUnload);
@@ -45,7 +56,6 @@ const ContactForm = () => {
       window.removeEventListener("beforeunload", handleBeforeUnload);
     };
   }, []);
-
   return (
     <Formik initialValues={initialValues} onSubmit={onSubmit}>
       <Form>
