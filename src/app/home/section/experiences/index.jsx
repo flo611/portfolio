@@ -25,7 +25,7 @@ const Experiences = () => {
                 date={element.date}
                 description={element.description}
                 longdescription={element.longdescription}
-                icon={element.icon}
+                icon={element.icon} 
                 onClick={() => showContent(element)}
               />
             </div>

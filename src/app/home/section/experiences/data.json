@@ -4,9 +4,9 @@
     "title": "Stage développeur web HelloDev Paris",
     "date": "2023/2024",
     "goal": "abc",
-    "description": "Réaliser un site internet pour l'association SFCosmeto côté Back-end et Front-end. Language PHP,JS utilisation de React et Tailwind. ",
-    "longdescription": "Réaliser du Cahier des chargers, Création de la maquette Figma, utilisation du language PHP pour la création des routes du token, language JavaScript pour le côté front avec le formulaire et axios",
-    "icon": "/images/hellodev.png"
+    "description": "Réaliser un site internet Back-end et Front-end. Language PHP,JS. Framework Tailwind. ",
+    "longdescription": "Réaliser du Cahier des chargers, Création de la maquette Figma, utilisation du language PHP pour le côté back-end, language JavaScript pour le côté front avec le formulaire. Utilisation de React avec contexte et composants réutilisables.",
+    "icon": "/images/hellodev.svg"
   },
 
   {
@@ -25,7 +25,7 @@
     "date": "2021/2022",
     "goal": "abc",
     "description": "Saisie LTA, Maîtrise du logiciel Accos, Suivi des stocks ULD, Contrôle marchandises magasin",
-    "longdescription":"Controle du magasin, vérification en normité des palettes et de leur contenu avant départ de l'avion,Saisie informatique des marchandises en départ, Controle des stocks des conteneurs et palettes, Suivi des trucks",
+    "longdescription":"Controle du magasin, vérification en normité des palettes et de leur contenu avant départ de l'avion,Saisie informatique des marchandises en départ, Controle des stocks des conteneurs et palettes, Suivi des trucks.",
     "icon": "/images/airchina.svg"
   },
  {
@@ -34,7 +34,7 @@
     "date": "2020/2021",
     "goal": "abc",
     "description": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements",
-    "longdescription": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements, Animateur randonnée, participation à des salons touristique, Maitrise du logiciel de Tourinsoft",
+    "longdescription": "Accueil du public, Gestion d'Evènements, Encadrement du public, Gestion Boutique, Logistique évènements, Animateur randonnée, participation à des salons touristique, Maitrise du logiciel de Tourinsoft.",
     "icon": "/images/tourisme.png"
   }
 ]
