@@ -28,36 +28,6 @@ const Projects = () => {
                 arr
                 interval={2000}
               >
-                <div>
-                  <Image
-                    src="/images/logos/white-logo naturopied.svg"
-                    className="h-80 w-80"
-                    alt="Naturopied"
-                    width={50}
-                    height={50}
-                  />
-                  <div className=" flex flex-row justify-center mt-6 ">
-                    <button
-                      type="button"
-                      title="Website"
-                      className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300"
-                    >
-                      <a href="https://naturopied.org/">
-                        <GiPlanetCore size={30} />
-                      </a>
-                    </button>
-                    <button
-                      type="button"
-                      title="github"
-                      className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300"
-                    >
-                      <a href="https://github.com/flo611/naturopied">
-                        <BsGithub size={30} />
-                      </a>
-                    </button>
-                  </div>
-                </div>
-
                 <div className="flex flex-col justify-center items-center h-full my-14">
                   <div className=" flex items-center w-44 ">
                     <AnchorLink offset={() => 150} href="#intro">
@@ -116,6 +86,36 @@ const Projects = () => {
                     </button>
                     <button className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300">
                       <a href="https://github.com/flo611/portfolio">
+                        <BsGithub size={30} />
+                      </a>
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <Image
+                    src="/images/logos/white-logo naturopied.svg"
+                    className="h-80 w-80"
+                    alt="Naturopied"
+                    width={50}
+                    height={50}
+                  />
+                  <div className=" flex flex-row justify-center mt-6 ">
+                    <button
+                      type="button"
+                      title="Website"
+                      className="  text-amber-800  justify-center pr-6  dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300"
+                    >
+                      <a href="https://naturopied.org/">
+                        <GiPlanetCore size={30} />
+                      </a>
+                    </button>
+                    <button
+                      type="button"
+                      title="github"
+                      className=" text-amber-800 flex justify-center pl-6 dark:text-slate-100 hover:text-cyan-900 hover:transition hover:ease-in-out hover:duration-300 dark:hover:text-amber-800 dark:hover:transition dark:hover:ease-in-out dark:hover:duration-300"
+                    >
+                      <a href="https://github.com/flo611/naturopied">
                         <BsGithub size={30} />
                       </a>
                     </button>

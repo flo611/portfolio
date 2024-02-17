@@ -16,8 +16,8 @@ const ContactForm = () => {
     message: "",
   };
 
+
   const onSubmit = (values, { resetForm }) => {
-    // Utilise email.js pour envoyer le formulaire par e-mail
     emailjs
       .send("service_2up4qj8", "template_qv435b9", values, "okCH71BTXGKRxEAU6")
       .then((response) => {
@@ -90,6 +90,7 @@ const ContactForm = () => {
               type="text"
               id="phone"
               name="phone"
+          
             />
             <ErrorMessage name="phone" component="div" />
           </div>
