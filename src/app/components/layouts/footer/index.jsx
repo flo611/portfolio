@@ -1,5 +1,5 @@
 "use client";
-import Link from 'next/link';
+import Link from "next/link";
 import Image from "next/image";
 
 import {
@@ -36,14 +36,6 @@ const Footer = () => {
             <span className="italic text-amber-800 dark:text-slate-100 font-nunitoRegular">
               &copy; Tous droits réservés
             </span>
-          </div>
-          <div className="italic text-amber-800 dark:text-slate-100 font-nunitoRegular hover:underline">
-            <ul>
-              <li>
-              <a href='/cgu' key='cgu'>Politiques d'utilisation</a> 
-              </li>
-            </ul>
-         
           </div>
         </div>
         <hr className="lg:hidden" />

@@ -44,8 +44,15 @@ const ContactForm = () => {
         "Le message ne doit contenir que des lettres, des chiffres, des espaces et des caractères spécifiques"
       )
       .required("Cochez la politque d'utilisation des données avant d'envoyer"),
-      acceptCGU: Yup.boolean().oneOf([true], 'Veuillez accepter les conditions d\'utilisation avant d\'envoyer').required('Veuillez accepter les conditions d\'utilisation avant d\'envoyer'),
-    });
+    acceptCGU: Yup.boolean()
+      .oneOf(
+        [true],
+        "Veuillez accepter les conditions d'utilisation avant d'envoyer"
+      )
+      .required(
+        "Veuillez accepter les conditions d'utilisation avant d'envoyer"
+      ),
+  });
 
   const onSubmit = (values, { resetForm }) => {
     emailjs
@@ -163,8 +170,10 @@ const ContactForm = () => {
                 name="acceptCGU"
                 className="mr-2"
               />
-              J'accepte les conditions générales d'utilisation des données
+              J&apos;accepte les conditions générales d&apos;utilisation des
+              données
             </label>
+
             <ErrorMessage name="acceptCGU" component="div" />
           </div>
           <div className="flex flex-row justify-center py-8 lg:col-span-2 lg:py-8 lg:pb-10">
@@ -173,9 +182,9 @@ const ContactForm = () => {
               value="Envoyer"
               className="uppercase px-4 py-4 w-36"
               onClick={() => onSubmit()}
-              ></Button>
+            ></Button>
           </div>
-              </div>
+        </div>
       </Form>
     </Formik>
   );
