@@ -13,9 +13,9 @@ const Experiences = () => {
 
   return (
     <section id="timeline">
-      <h1 className="w-full justify-center flex flex-row text-amber-800 dark:text-amber-600 uppercase pt-6 font-bold font-nunitoRegular lg:py-20 lg:text-3xl">
+      <h2 className="w-full justify-center flex flex-row text-amber-800 dark:text-amber-600 uppercase pt-6 font-bold font-nunitoRegular lg:py-20 lg:text-3xl">
         Mes Expériences
-      </h1>
+      </h2>
       <div className="flex flex-col items-center md:mx-14  lg:grid lg:grid-cols-2">
         {data.map((element) => {
           return (

@@ -11,9 +11,9 @@ import { GiPlanetCore } from "react-icons/gi";
 const Projects = () => {
   return (
     <section id="projects">
-      <h1 className="w-full flex justify-center text-amber-800 dark:text-amber-600 uppercase pt-6 pb-4 font-bold font-nunitoRegular lg:py-20 lg:text-3xl">
+      <h2 className="w-full flex justify-center text-amber-800 dark:text-amber-600 uppercase pt-6 pb-4 font-bold font-nunitoRegular lg:py-20 lg:text-3xl">
         Mes projets
-      </h1>
+      </h2>
       <div className=" pb-4 mx-4 md:mx-16 lg:pb-0 lg:my-14 lg:mx-72 hover:transition hover:ease-in-out hover:duration-200 lg:hover:scale-105 ">
         <div className="contain rounded-lg p-4  ">
           <div className="card rounded-lg p-4 lg:p-8 lg:m-4 ">

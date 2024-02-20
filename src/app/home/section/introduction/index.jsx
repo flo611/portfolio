@@ -24,8 +24,7 @@ const Introduction = () => {
               height="100"
             />
           </div>
-        
-          <div className="flex flex-col items-center pt-10 md:pt-20 lg:pt-24 lg:flex-row lg:justify-center">
+              <div className="flex flex-col items-center pt-10 md:pt-20 lg:pt-24 lg:flex-row lg:justify-center">
             <a href="/images/cv.pdf" className="pb-2 lg:pb-0 lg:pr-4">
               <Button type="button" value="Mon CV" />
             </a>
