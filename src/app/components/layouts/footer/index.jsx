@@ -37,6 +37,9 @@ const Footer = () => {
               &copy; Tous droits réservés
             </span>
           </div>
+          <div>
+          <Link href="/cgu" className="italic text-sm text-amber-800 dark:text-slate-100 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800 dark:hover:text-amber-800 dark:hover:border-cyan-800">Conditions Générales d'Utilisation.</Link>
+          </div>
         </div>
         <hr className="lg:hidden" />
         <div className="flex justify-center py-4 lg:text-8xl lg:w-full">

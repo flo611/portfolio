@@ -87,7 +87,7 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center  ">
                 <Image
-                  src="/images/figma.svg"
+                  src="/images/docker.svg"
                   width={60}
                   height={60}
                   alt="figma logo"
