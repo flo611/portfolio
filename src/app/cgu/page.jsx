@@ -2,6 +2,7 @@
 import Navbar from "../components/layouts/navbar";
 import Particlesbackground from "../components/tools/particles";
 import Footer from "../components/layouts/footer";
+
 const Cgu =() =>{
 
     return(
