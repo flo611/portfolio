@@ -38,7 +38,7 @@ const Footer = () => {
             </span>
           </div>
           <div>
-          <Link href="/cgu" className="italic text-sm text-amber-800 dark:text-slate-100 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800 dark:hover:text-amber-800 dark:hover:border-cyan-800">Conditions Générales d'Utilisation.</Link>
+          <Link href="/cgu" className="italic text-sm text-amber-800 dark:text-slate-100 hover:text-black hover:transition hover:ease-in-out hover:duration-200 hover:border-b-2 hover:border-amber-800 dark:hover:text-amber-800 dark:hover:border-cyan-800">Conditions Générales d&apos;Utilisation.</Link>
           </div>
         </div>
         <hr className="lg:hidden" />
